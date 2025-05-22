@@ -1,0 +1,1585 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' matomo.16bpp.net cdn.jsdelivr.net gist.github.com platform.twitter.com cdn.syndication.twimg.com pagead2.googlesyndication.com adservice.google.com www.googletagservices.com;" />
+  <title>16BPP.net: Blog / Page 1</title>
+  <link rel="icon" href="https://storage.googleapis.com/sixteenbpp/images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  
+    <link rel="stylesheet" href="/static/styles/main.css" />
+  
+    <link rel="stylesheet" href="/static/styles/blog.css" />
+  
+
+  
+    <style>
+
+
+
+
+
+
+
+</style>
+  
+
+  
+    <script src="/static/scripts/main.js"></script>
+  
+
+  
+    <script>
+
+
+
+
+
+
+
+</script>
+  
+
+  <!-- Matomo -->
+<script>
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.16bpp.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+
+<body>
+  <a id="top"></a>
+  
+
+
+  <div class="container">
+    <!-- Header image -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="/"><img class="site-logo" src="https://storage.googleapis.com/sixteenbpp/images/logo.png" width="512" height="192" alt="16BPP.net" /></a>
+      </div>
+    </div>
+
+    <div class="row justify-content-start">
+      <!-- Navigation links (left sidebar)-->
+      <div class="col-lg-3">
+
+        <nav class="navigation-links-box">
+          <!-- Nav collapse button, visible only when content is a single column -->
+          <div class="d-lg-none text-end">
+            <button class="btn-sm navigation-collapse-button" type="button" data-bs-toggle="collapse" data-bs-target="#navigation-collapsable-area">
+              <img id="nav-collapse-icon" src="https://storage.googleapis.com/sixteenbpp/images/icons/menu_open.svg" alt="" width="24" height="24">
+            </button>
+          </div>
+
+          <!-- the actual content of the navgiation block -->
+          <div id="navigation-collapsable-area" class="collapse d-lg-block navigation-links"><div class="section-header">Navigation:</div>
+<ul>
+  <li><a href="https://16bpp.net/">Main/Blog</a></li>
+  <li>
+    <a href="https://16bpp.net/tutorials">Tutorials</a>
+    <ul>
+      <li><a href="https://16bpp.net/tutorials/csharp-networking">C# Networking & Sockets</a></li>
+    </ul>
+  </li>
+  <li><a href="https://16bpp.net/contact">Contact</a></li>
+</ul>
+
+<div class="section-header">Big Projects:</div>
+<ul>
+  <li>
+    <a href="https://16bpp.net/blog/post/psraytracing-a-revisit-of-the-peter-shirley-minibooks-4-years-later/">PSRayTracing (High Throughput C++)</a>
+    <ul>
+      <li><a href="https://16bpp.net/blog/post/automated-testing-of-a-ray-tracer/">Automating Testing &amp; Performance Metering with Python</a></li>
+      <li><a href="https://16bpp.net/blog/post/making-a-cross-platform-mobile-desktop-app-with-qt-62/">Mobile/Desktop UI Built in Qt 6</a></li>
+      <li><a href="https://16bpp.net/blog/post/localizing-a-qt-app-or-anything-else-for-that-matter/">Software Localization Guide (for Qt)</a></li>
+      <li><a href="https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/">Measuring C++'s <code>final</code> keyword</a></li>
+      <li><a href="https://16bpp.net/blog/post/noexcept-can-sometimes-help-or-hurt-performance/">Measuring C++'s <code>noexcept</code> keyword</a><span class="small-note">[newish]</span></li>
+      <li><a href="https://16bpp.net/blog/post/when-greedy-algorithms-can-be-faster/">Benchmarking Point Sampling Methods</a><span class="small-note">[new]</span></li>
+    </ul>
+  </li>
+
+  <li><a href="https://16bpp.net/blog/post/ray-tracing-book-series-review-nim-first-impressions">A Ray Tracer in Nim</a></li>
+  <li><a href="https://16bpp.net/blog/post/blit-a-retrospective-on-my-largest-project-ever">Blit (Spriting/Animation Tool)</a></li>
+  <li><a href="https://16bpp.net/blog/post/masala-a-chaiscript-game-engine">Masala (ChaiScript Game Engine)</a></li>
+  <li><a href="https://16bpp.net/blog/post/mega_matrix">MEGA_MATRIX (LED Display)</a></li>
+  <li><a href="https://16bpp.net/blog/post/c8-my-new-chip-8-emulator">c8 (CHIP-8 Emulator)</a></li>
+</ul>
+
+<div class="section-header">Small Projects:</div>
+<ul>
+  <li><a href="https://gitlab.com/define-private-public/Bassoon">Bassoon: cross platfrom audio playback for C#/.NET Core</a></li>
+  <li><a href="https://16bpp.net/blog/post/html5-canvas-bindings-for-nims-javascript-target">HTML5 Canvas Drawing for Nim's JavaScript Target</a></li>
+  <li><a href="https://16bpp.net/blog/post/random-art-in-nim">Random Art in Nim</a></li>
+  <li><a href="https://16bpp.net/blog/post/stb_image-wrapper-for-nim">stb_image for Nim</a></li>
+  <li><a href="https://16bpp.net/blog/post/a-stopwatch-for-nim">Nim Stopwatch</a></li>
+  <li><a href="https://16bpp.net/blog/post/a-kicad-footprint-scaler">KiCAD Footprint Scaler</a></li>
+  <li><a href="https://16bpp.net/blog/post/timelapse_test">timelapse_test (timelapse capture)</a></li>
+</ul>
+
+<div class="section-header">Games:</div>
+<ul>
+  <li><a href="https://16bpp.net/games/pucker-godot-edition-2020">Pucker Up (Godot Edition, 2020)</a></li>
+</ul>
+
+<div class="section-header">Toys:</div>
+<ul>
+  <li><a href="https://16bpp.net/page/random-art-in-webgl/">Random Art in WebGL</a></li>
+  <li><a href="https://16bpp.net/page/monotone-polygon-triangulation">Polygon Triangulation</a></li>
+</ul>
+
+
+<div class="section-header">Art n' Stuff:</div>
+<ul>
+  <li><a href="https://16bpp.net/blog/post/some-of-my-early-animations">First Animations</a></li>
+  <li><a href="https://16bpp.net/page/how-random-art-works">How Random Art Works</a></li>
+</ul>
+
+
+<div class="section-header">Other Things:</div>
+<ul>
+  <li><a href="https://twitter.com/DefPriPub">My Twitter (@DefPriPub)</a></li>
+  <li><a href="https://gitlab.com/define-private-public">GitLab Page</a></li>
+  <li><a href="https://github.com/define-private-public">GitHub Page</a></li>
+  <li><a href="https://vimeo.com/bensummerton">Vimeo Page</a></li>
+</ul>
+
+<div class="section-header">About:</div>
+<p>
+  Software developer in Boston, MA.  I like C++, Qt, UI/UX, graphics, animation and other fun things. 日本語を話します。
+</p>
+</div>
+        </nav>
+
+      </div>
+
+      <!-- Content Area -->
+      <div class="col-lg-9">
+        <article class="content">
+          
+
+          
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Tue Jan 28th, 2025 – 08:15 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/when-greedy-algorithms-can-be-faster">When Greedy Algorithms Can Be Faster</a></div>
+  <div class="blog-entry-body"><p class="special-note">Update February 16th, 2025:&nbsp; I&#39;ve posted this article on a few places, and if you&#39;ve read the comments sections (such as on <a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/title_fails_cs_101_censored.png">/r/cpp</a>), it&#39;s well mentioned that this was very poorly titled.&nbsp; I would like to acknowledge this fact.&nbsp; The title was not my number one priority when writing this post; the content was.&nbsp; With this said, I&#39;m not going to be changing anything below.<br />
+<br />
+1. I&#39;d need to change many URLs and possibly break linkage to this.&nbsp; That&#39;s a lot of work<br />
+2. We all goof up at times.&nbsp; I don&#39;t want to hide this and would like to show to our more junior developers that your seniors will make mistakes as well<br />
+3. <a href="https://www.reddit.com/user/stl/">/u/STL</a> was generous enough to bestow a custom post flair on the article<br />
+<br />
+<img alt="Title Fails CS 101" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/title_fails_cs_101_censored.png" style="width: 600px; height: 326px;" /><br />
+<br />
+Those aren&#39;t handed out to just anyone.&nbsp; You have to work for that, and hard.</p>
+
+<p>In the realm of computer science, we&#39;re always told to pursue what is the most efficient solution. This can be either what is the fastest way to solve a problem; or what may be the cheapest.</p>
+
+<p>What is the easiest, but not always the best, is typically a &quot;<a href="https://en.wikipedia.org/wiki/Greedy_algorithm">greedy algorithm</a>&quot;; think bubble sort. More often than not, there is a much more efficient method which typically involves thinking about the problem a bit deeper. These are often the analytical solutions.</p>
+
+<p>Whilst working on <a href="https://github.com/define-private-public/PSRayTracing">PSRayTracing</a> (PSRT), I was constantly finding inefficient algorithms and data structures. There are places where it was obvious to improve something, whereas other sections really needed a hard look-at to see if there was more performance that could be squeezed out. After <a href="https://cppcast.com/benchmarking_language_keywords/">the podcast interview</a> I was looking for the next topic to cover. Scanning over older code, I looked at <a href="https://github.com/define-private-public/PSRayTracing/blob/4ad7bc1f2bef6945378320c91fad5afb5558ad72/render_library/RandomGenerator.hpp">the random number generator</a> since it&#39;s used quite a bit. I spotted an infinite loop and thought <em>&quot;there has to be something better&quot;</em>.</p>
+
+<p>The code in question is a method to generate a 2D (or 3D) vector, which falls within a unit circle (or sphere). This is the algorithm that the book originally gave us:</p>
+
+<pre>
+Vec3 get_in_unit_disk() {
+    while (true) {
+        const Vec3 p(get_real(-1, 1), get_real(-1, 1), 0);
+        if (p.length_squared() &gt;= 1)
+            continue;
+
+        return p;
+    }
+}</pre>
+
+<p>The above in a nutshell:</p>
+
+<ol>
+	<li>Generate two (random) numbers between <code>[-1.0, 1.0]</code> to make a (2D) vector</li>
+	<li>If the length squared of the vector is <code>1</code> or greater, do step 1 again</li>
+	<li>If not, then you have a vector that&#39;s within the unit circle</li>
+</ol>
+
+<p>(The 3D case is covered by generating three numbers at step 1)</p>
+
+<p>&nbsp;</p>
+
+<p>This algorithm didn&#39;t feel right to me. It has some of that yucky stuff we hate: infinite looping and <em>try-and-see-if-it-works</em> logic. This could easily lead to branch prediction misses, being stuck (theoretically) spinning forever, wasting our random numbers. And it doesn&#39;t feel &quot;mathematically elegant&quot;.</p>
+
+<p>My code had some commented out blocks with an analytical solution to the above. But in the years prior when I had first touched that code <a href="https://github.com/define-private-public/PSRayTracing/blob/4ad7bc1f2bef6945378320c91fad5afb5558ad72/render_library/RandomGenerator.hpp#L113">I had left a note</a> saying that it was a bit slower than using the loop.</p>
+
+<p>The next day I had an email fall into my inbox. It was from GitHub notifying me of a response. The body was about how to generate a random point inside of a unit sphere... Following the link to the discussion, it came from the original book&#39;s repository. The first reply in 4 years on a topic... that... I... created...</p>
+
+<p>I think this was a sign from above to investigate it again.</p>
+
+<p>&nbsp;</p>
+
+<p>Reading through <a href="https://github.com/RayTracing/raytracing.github.io/discussions/765">the old discussion</a> <sup>(please don&#39;t look I&#39;m embarrassed)</sup>, one of the maintainers <a href="https://github.com/RayTracing/raytracing.github.io/discussions/765#discussioncomment-171214">@hollasch left a good comment</a>:</p>
+
+<p><a href="github.com/RayTracing/raytracing.github.io/discussions/765#discussioncomment-171214"><img alt="@hollasch comment" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/hollasch_comment.png" /></a></p>
+
+<p>What really stuck out to me is in the beginning:</p>
+
+<p style="margin-left: 40px;"><cite>&quot;The current approach is significantly faster in almost all cases than any analytical method so far proposed ... every time our random sampling returns an answer faster than the analytical approach,&quot;</cite></p>
+
+<p>Are rejection methods much faster than an analytical solution? Huh.</p>
+
+<p>&nbsp;</p>
+
+<h4>Understanding The Problem A Little More</h4>
+
+<p>As seen above, there is an analytical solution to the above algorithm for both the 2D and 3D cases. We&#39;ll use Python for the moment.</p>
+
+<p><img alt="sampling 2D points in a circle" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/2d_point_sampling_in_circle.png" /></p>
+
+<p>In the above diagrams, we&#39;re just taking a random sampling of points inside a 2D plane. You can see they are fairly uniformly distributed. To the far right the points in blue are what falls within the unit circle, the red is what falls outside (and we must throw out). In a nutshell this is a visualization of the rejection sampling method:</p>
+
+<pre>
+def rejection_in_unit_disk():
+   while True:
+       x = random.uniform(-1, 1)
+       y = random.uniform(-1, 1)
+       v = Vec2(x, y)
+
+       if (v.length_squared() &lt; 1):
+           return v</pre>
+
+<p>&nbsp;</p>
+
+<p>Using the area formulas for a square and a circle, we can find out the chance that a point will fall inside the circle:</p>
+
+<p style="text-align: center;"><img alt="area of a square formula" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/area_of_square_formula_wikipedia.png" /><img alt="area of a circle formula" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/area_of_circle_formula_wikipedia.png" /></p>
+
+<p>In this case, <code>r = s / 2</code>, and it&#39;s <code>&lt;circle area&gt; / &lt;square area&gt;</code>. If you do all of the math, you&#39;ll find that the odds are ~78.54%. Which means that around 22% of our points are rejected; that isn&#39;t desirable.</p>
+
+<p>For the analytical solution, you have to think in terms of polar coordinates: Generate a random radius and generate a random angle. Initially you might assume the correct method is this:</p>
+
+<pre>
+def analytical_in_unit_disk_incorrect():
+   r = random.uniform(0, 1)
+   theta = random.uniform(0, two_pi)
+   x = r * math.cos(theta)
+   y = r * math.sin(theta)
+
+   return Vec2(x, y)</pre>
+
+<p>&nbsp;</p>
+
+<p>But that&#39;s not quite right:</p>
+
+<p style="text-align: center;"><img alt="incorrect analytical 2D unit disk sampling solution" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/2d_bad_analytical_solution.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>Charting these points, while all are falling within the unit circle, they are clustering more in the center. This is not correct. We need to alter the distribution of the points to appear more uniform. Remember from math class how you needed to use a square root to calculate the distance of a vector? That&#39;s also the trick to fixing the scattering:</p>
+
+<pre>
+def analytical_in_unit_disk():
+   r = <strong>math.sqrt</strong>(random.uniform(0, 1))
+   theta = random.uniform(0, two_pi)
+   x = r * math.cos(theta)
+   y = r * math.sin(theta)
+
+   return Vec2(x, y)</pre>
+
+<p>&nbsp;</p>
+
+<p>Huzzah! We now have the analytical solution:</p>
+
+<p style="text-align: center;"><img alt="correct analytical 2D unit disk sampling solution" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/2d_correct_analytical_solution.png" /></p>
+
+<p>Look at how beautiful that is:</p>
+
+<ol>
+	<li>All points fall within the unit circle</li>
+	<li>All look to be equally distributed</li>
+	<li>No (theoretical) infinite looping</li>
+	<li>No wasted random numbers</li>
+</ol>
+
+<p>The 3D case the rejection method is the same (but you add an extra Z-axis).</p>
+
+<p style="text-align: center;"><img alt="3D point rejection sampling" height="461" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/3d_point_sampling_rejection.png" width="556" /></p>
+
+<p>How much more inefficient is the rejection sampling in 3D? It&#39;s way worse than the 2D case. Take these volume formulas. The first being that of a cube&#39;s and the second that of a sphere&#39;s.</p>
+
+<p style="text-align: center;"><img alt="volume of a cube formula" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/volume_of_cube_formula_wikipedia.png" /><img alt="volume of a sphere formula" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/volume_of_sphere_formula_wikipedia.png" /></p>
+
+<p>Similarly, when <code>a = r / 2</code>, the chance a randomly generated point (using rejection sampling) falls within the sphere, is only 52.36%. You have to throw out nearly half of your points!</p>
+
+<p>The analytical (spherical) method is a tad more complex, but it follows the same logic. If you want to read more about this, <a href="https://karthikkaranth.me/blog/generating-random-points-in-a-sphere/">Karthik Karanth wrote an excellent article</a>. The Python code for the 3D analytical solution is as follows:</p>
+
+<pre>
+def analytical_in_unit_sphere():
+   r = math.cbrt(random.uniform(0, 1))
+   theta = random.uniform(0, two_pi)
+   phi = math.acos(random.uniform(-1, 1))
+
+   sin_theta = math.sin(theta)
+   cos_theta = math.cos(theta)
+   sin_phi = math.sin(phi)
+   cos_phi = math.cos(phi)
+
+   x = r * sin_phi * cos_theta
+   y = r * sin_phi * sin_theta
+   z = r * cos_phi
+
+   return Vec3(x, y, z)</pre>
+
+<p>&nbsp;</p>
+
+<p>Jumping ahead in time just a little, let me show you the same scene rendered twice over, but with each different sampling method:</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/0552_rejection.png"><img alt="render of test 0552 with rejection sampling" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/0552_rejection.png" style="width: 350px; height: 622px;" /></a><a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/0552_analytical.png"><img alt="render of test 0552 with analytical sampling" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/0552_analytical.png" style="width: 350px; height: 622px;" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>The one on the left was using boring rejection sampling, whereas the one on the right is using this new fancy analytical method. At a first glance the two images are indistinguishable; we&#39;d call this &quot;perceptually the same&quot;. Zooming in on a 32x32 patch of pixels (in the same location) you can start to spot some differences.&nbsp; This is because we are now traversing through our random number generator differently with these two methods.&nbsp; It alters the fuzz, but for the end user it is the same image.</p>
+
+<p style="text-align: center;"><img alt="zoom of test 0552 using rejection" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/0552_rejection_zoom.png" /> <img alt="zoom of test 0552 using analytical" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/0552_analytical_zoom.png" /></p>
+
+<p style="text-align: center;"><sub>(Hint: look at the top two rows, especially the purple near the right side)</sub></p>
+
+<p>&nbsp;</p>
+
+<h4>Benchmarking (Part 1)</h4>
+
+<p>Let&#39;s stay in Python land for the moment because it&#39;s easier. We can create a small benchmark to see how long it takes to generate both the 2D &amp; 3D points. <a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/comparing_greedy_vs_analytical.py">The full source code of the program can be found here.</a> The critical section is this:</p>
+
+<pre>
+# Returns how many seconds it took
+def measure(rng_seed, num_points, method):
+   bucket = [None] * num_points  # preallocate space
+
+   random.seed(rng_seed)
+
+   start_time = time.time()
+   for i in range(0, num_points):
+       bucket[i] = method()
+   end_time = time.time()
+
+   return (end_time - start_time)
+
+
+def main():
+   rng_seed = 1337
+   num_runs = 500
+   num_points = 1000000
+
+   # ...
+
+   for i in range(0, num_runs):
+       seed = rng_seed + i
+
+       r2d = measure(seed, num_points, rejection_in_unit_disk)
+       a2d = measure(seed, num_points, analytical_in_unit_disk)
+       r3d = measure(seed, num_points, rejection_in_unit_sphere)
+       a3d = measure(seed, num_points, analytical_in_unit_sphere)
+
+       # ...</pre>
+
+<p>&nbsp;</p>
+
+<p>From there we can take measurements of how long each method took and compare them. Running on a 10th Gen i7 (under Linux), this is the final runtime of the benchmark:</p>
+
+<pre>
+Rejection 2D:
+  Mean: 0.893 s
+  Median: 0.893 s
+Analytical 2D:
+  Mean: 0.785 s
+  Median: 0.786 s
+Rejection 3D:
+  Mean: 1.559 s
+  Median: 1.560 s
+Analytical 3D:
+  Mean: 1.151 s
+  Median: 1.150 s</pre>
+
+<p>&nbsp;</p>
+
+<p>Looking at the median rejection sampling is 13% slower in the 2D case and 35% in the 3D case!! Surely, we must now use the analytical method. All of this work we&#39;ve done was definitely worth it!</p>
+
+<p>&nbsp;</p>
+
+<h4>Taking It Into The Ray Tracer</h4>
+
+<p>Placing the analytical methods into the ray tracer <a href="https://github.com/define-private-public/PSRayTracing/commit/38e540def81fa042126c34e3e21400c69e143828">was very trivial</a>. All of the math functions exist in the standard library therefore the port from Python is nearly 1-1 one to one. Here&#39;s how long it takes to the render <a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/images/book2_final_n10000.png">the default scene</a> with the sad-poor rejection sampling:</p>
+
+<pre>
+me@machine:$ ./PSRayTracing -j 4 -n 500 -o with_rejection.png
+...
+Render took <strong>105.956 seconds</strong></pre>
+
+<p>&nbsp;</p>
+
+<p>And now, recompiled with our Supreme analytical method:</p>
+
+<pre>
+me@machine:$ ./PSRayTracing -j 4 -n 500 -o with_analytical.png
+...
+Render took <strong>118.408 seconds</strong></pre>
+
+<p><sup>(These measurements were taken with the same 10th Gen i7 on Linux compiled with GCC 14 using CMake&#39;s Release mode.)</sup></p>
+
+<p>Wait, <strong>it took longer to use the analytical method?</strong>&nbsp; Inspecting <a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/with_rejection.png">both</a> <a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/with_analytical.png">renders</a> they are perceptually the same. Pixel for pixel there are differences, but this is expected because the random number generator is being used differently now.</p>
+
+<p>Just like my note from 4 years ago said... It&#39;s... Slower... Something Ain&#39;t Right<a href="https://www.youtube.com/watch?v=kd5LJ4r-vEY">.</a></p>
+
+<p>&nbsp;</p>
+
+<h4>Benchmarking (Part 2)</h4>
+
+<p>We need to dig in a little more here. Let&#39;s benchmark the four methods separate from the ray tracer again, but this time in C++. If you want to read the source, I&#39;ll leave the link right here: <code><a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/comparing_greedy_vs_analytical.cpp">comparing_greedy_vs_analytical.cpp</a></code> . It&#39;s structured a tiny bit different from the Python code, but we have as little overhead as possible. We&#39;ll also be using the same RNG engine, the <a href="https://en.cppreference.com/w/cpp/numeric/random/mersenne_twister_engine">Mersenne</a> <a href="https://docs.python.org/3.13/library/random.html">Twister</a> (MT).</p>
+
+<p class="special-note">I want to take an aside here to mention that PSRT actually uses <a href="https://www.pcg-random.org/index.html">PCG</a> by default for random number generation. It&#39;s much more performant than the built in MT engine and doesn&#39;t get exhausted as quickly. <a href="https://github.com/define-private-public/PSRayTracing?tab=readme-ov-file#pcg-random--a-rng-object">I wrote about it briefly before</a>. The MT engine can be <a href="https://github.com/define-private-public/PSRayTracing/blob/4ad7bc1f2bef6945378320c91fad5afb5558ad72/render_library/CMakeLists.txt#L146">swapped back in</a> if so desired. While any random number generation method can greatly impact performance, in this case it is not the cause of the slowdown seen above.</p>
+
+<pre>
+me@machine:$ g++ comparing_greedy_vs_analytical.cpp -o test
+./test 1337 500 1000000
+Testing with 1000000 points, 500 times...
+run_number: rejection_2d_ms, analytical_2d_ms, rejection_3d_ms, analytical_3d_ms
+1: 516, 268, 658, 423,
+2: 295, 273, 640, 428,
+...
+499: 306, 278, 670, 445,
+500: 305, 279, 676, 446,
+
+<strong>mean: 313, 277, 675, 448
+median: 305, 276, 665, 444</strong>
+(all times measured are in milliseconds)</pre>
+
+<p>&nbsp;</p>
+
+<p>It&#39;s still showing the analytical method is still much more faster than the rejection sampling. About 10% for 2D and nearly 33% for 3D. Which is what is aligned with the Python benchmark. What could be going on here...&nbsp; Oh wait; Silly me...</p>
+
+<p>I forgot to turn on compiler optimizations... Let&#39;s run this again now!</p>
+
+<pre>
+me@machine:$ g++ comparing_greedy_vs_analytical.cpp -o test <strong>-O3</strong>
+./test 1337 500 1000000
+Testing with 1000000 points, 500 times...
+run_number: rejection_2d_ms, analytical_2d_ms, rejection_3d_ms, analytical_3d_ms
+1: 87, 137, 96, 81,  
+2: 17, 33, 40, 80,  
+...
+499: 18, 35, 42, 82,  
+500: 18, 35, 44, 82,  
+
+<strong>mean: 20, 38, 44, 82
+median: 17, 34, 42, 82</strong>
+(all times measured are in milliseconds)</pre>
+
+<p>&nbsp;</p>
+
+<p>What-</p>
+
+<p>The rejection sampling methods are faster?! <strong>And by 50%?!!?!</strong></p>
+
+<p>This needs more investigation.</p>
+
+<p>&nbsp;</p>
+
+<h4>Benchmarking (Part 3)</h4>
+
+<p>If you&#39;ve read the other posts in this series, you know that I like to test things on every possible permutation/combination that I can think of.&nbsp; At my disposal, I have:</p>
+
+<ul>
+	<li>An Intel i7-1050H</li>
+	<li>An AMD Ryzen 9 6900HX</li>
+	<li>An Apple M1</li>
+</ul>
+
+<p>With the x86_64 processors I can test GCC, clang, and MSVC. GCC+Clang on Linux and GCC+MSVC on Windows. For macOS we&#39;re playing with ARM processors so I only have Clang+GCC available. This gives us 10 different combinations of Chip+OS+Compiler to measure. But seeing above how optimizations levels affected the runtime we need to look at different compiler optimization flags (<code>-O1</code>, <code>-Ofast</code>, <code>/Od</code>, <code>/Ox</code>, etc). In total there are 48 cases which can be tested.</p>
+
+<div class="special-note">
+<p>Turning on compiler optimizations can seem like a no-brainer but I need to mention there are risks involved. You might get away with <code>-O3</code>, but <code>-Ofast</code> can be considered dangerous in some cases. I&#39;ve worked in some environments (e.g. medical devices) where code was shipped with <code>-O0</code> explicitly turned on as to ensure there no unexpected side effects from optimization. But then again, we use IEEE 754 floats in our lives daily, where <a href="https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=c121c1cd8ce6ccae89cf86f626a5358e"><code>-1 == -1024</code></a>. So does safety really even matter?</p>
+
+<p>As a secondary side tangent: I do find <a href="https://learn.microsoft.com/en-us/cpp/build/reference/o-options-optimize-code?view=msvc-170">MSVC&#39;s <code>/O</code> optimizations</a> a bit on the confusing side. I come from the GCC cinematic universe where we have a trilogy (<code>-O1</code>, <code>-O2</code>, <code>-O3</code>), a prequel (<code>-O0</code>), and a spinoff (<code>-Ofast</code>). MSVC has the slew of <code>/O1</code>, <code>/O2</code>, <code>/Ob</code>, <code>/Od</code>, <code>/Og</code>, <code>/Oi</code>, <code>/Os</code>, <code>/Ot</code>, <code>/Ox</code>, <code>/Oy</code> which call all be mixed and matched as a choose-your-own-adventure novel series. <a href="https://stackoverflow.com/questions/29633566/visual-studio-2013-optimization-flags-o2-vs-ox">This Stack Overflow post</a> helped demystify it it for me.</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>Using the above C++ benchmark, the results have been placed into <a href="https://docs.google.com/spreadsheets/d/1Y-7FpUeAAA_7uh2KMLjU9HbB8r0rqoSpL_20RS2x9JM/edit?usp=sharing">a Google Sheet</a>. As always, they yield some fascinating results:</p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/1Y-7FpUeAAA_7uh2KMLjU9HbB8r0rqoSpL_20RS2x9JM/edit?usp=sharing"><img alt="spreadsheet for C++ benchmark" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/comparison_benchmark_preview.png" /></a></p>
+
+<p>Normally, I would include some fancy charts and graphs here, but I found it very difficult to do so and I didn&#39;t want to cause any confusion. Instead there are some interesting observations I want to note:</p>
+
+<ul>
+	<li>For Intel+Linux+GCC just turning on <code>-O1</code> yielded significant improvements
+
+	<ul>
+		<li>On average, optimizations made rejection sampling 50% faster</li>
+	</ul>
+	</li>
+	<li>For Intel+Linux+Clang in nearly all of the cases, the analytical method was faster
+	<ul>
+		<li>Especially for 3D</li>
+		<li>The only exception was when <code>-Ofast</code> was used, the rejection sampling performed better</li>
+	</ul>
+	</li>
+	<li>For Intel+Windows+GCC rejection sampling was always better. Typically +150% for the 2D case, and +70% for 3D</li>
+	<li>Intel+Windows+MSVC is comparable to the above (GCC) but was slower</li>
+	<li>On AMD, all compilers on each OS behaved the same as on Intel</li>
+	<li>With the M1 chip (macOS) GCC performed much better than clang
+	<ul>
+		<li>Except for <code>-O0</code> GCC&#39;s rejection sampling was always faster than the analytical method</li>
+		<li>Clang on the other hand, 2D rejection sampling was faster, but for the 3D case, using the analytical method was faster.</li>
+	</ul>
+	</li>
+</ul>
+
+<p>This is a bit bonkers, as I really didn&#39;t expect there to be that much difference. Clang seemed to do better with analytical sampling, but GCC (with optimizations on) using rejection sampling stole the show. In general, I&#39;m going to claim now that rejection sampling is better to use.</p>
+
+<p>&nbsp;</p>
+
+<h4>Assembly Inspection</h4>
+
+<p>I&#39;m always iffy when it comes to inspecting the assembly. It&#39;s not my wheelhouse, and playing &quot;count the instructions&quot; is my favorite way of measuring performance; <strong>running code with a stopwatch is</strong>. If you need a basic primer on the topic, these two videos give a nice overview about some more of the important parts:</p>
+
+<ul>
+	<li><a href="https://www.youtube.com/watch?v=YQQdiQLTWWE">x86_64 jumps and control flow</a></li>
+	<li><a href="https://www.youtube.com/watch?v=QZt9dQ-3B9U">X86_64 calls</a></li>
+</ul>
+
+<p>Reducing instruction counts, jumps and calls are what we aim for.</p>
+
+<p>Taking a look at GCC 14.2&#39;s x86_64 output, the <code>-O0</code> case is quite straightforward. We&#39;re going to only cover the 2D case as it&#39;s less to go through.</p>
+<script src="https://gist.github.com/define-private-public/07945570cbfe49b98bd88f0f8ea66e19.js?file=rejection_in_unit_disk_gcc_14.2_O0.asm"></script>
+
+<p>First up with rejection sampling (<a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/assembly_output/rejection_in_unit_disk_gcc_14.2_O0.asm">full code here</a>), it will take around ~110 instructions to fully complete. Coupled with that we have 4 procedure calls and at the end a check to see if we need to repeat the entire process (and remember there is 22% chance it could happen). In the case we repeat it, then it would be around ~205 instructions (and 8 procedure calls).</p>
+<script src="https://gist.github.com/define-private-public/07945570cbfe49b98bd88f0f8ea66e19.js?file=analytical_in_unit_disk_gcc_14.2_O0.asm"></script>
+
+<p>In the analytical case (<a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/assembly_output/analytical_in_unit_disk_gcc_14.2_O0.asm">full code here</a>) there&#39;s a little less than ~100 instructions to compute. Now on the flip-side there are 6 calls, but there is zero chance that we&#39;ll have to repeat anything in the procedure.</p>
+
+<p>When cracking up that compiler to <code>-O3</code>, we have to throw everything above out the window as the assembly becomes <strong>very</strong> hard to decipher. I&#39;ll try my best, but if I&#39;m wrong, someone who could <a href="https://16bpp.net/page/contact/">contact me</a> to correct it would be much appreciated</p>
+<script src="https://gist.github.com/define-private-public/07945570cbfe49b98bd88f0f8ea66e19.js?file=rejection_in_unit_disk_gcc_14.2_O3.asm"></script>
+
+<p>(<a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/assembly_output/rejection_in_unit_disk_gcc_14.2_O3.asm">Full code here</a>) This is where I <strong><em>think</em></strong> the rejection method is in the code. This is because of the <code>jne L16</code> line. A similar pattern of execution is viewed above for <code>-O0</code>. The compiler is optimizing away and inlining a bunch of other functions which makes this hard to track. Here, we have only 45 instructions to run, and not a single <code>call</code>!</p>
+<script src="https://gist.github.com/define-private-public/07945570cbfe49b98bd88f0f8ea66e19.js?file=analytical_in_unit_disk_gcc_14.2_O3.asm"></script>
+
+<p>(<a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/assembly_output/analytical_in_unit_disk_gcc_14.2_O3.asm">Full code here</a>) This is my best guess of the <code>-O3</code>&#39;d analytical method. The clue here for us is there are the two <code>call</code> instructions; one to <code><a href="https://man7.org/linux/man-pages/man3/sincos.3.html">sincos()</a></code> and <code><a href="https://en.cppreference.com/w/c/numeric/math/sqrt">sqrt()</a></code>. This looks to be about 55 instructions long, which already loses the counting competition. Coupled in with the <code>call</code>s this will definitely be slower.</p>
+
+<p><strong>Measuring the runtime of the code will always beat looking at assembly</strong>. The assembly can give you insights, but it&#39;s worthless in the face of a clock. And as you can see from turning on <code>-O3</code> (or even <code>-O1</code>) it can be much harder to glean anything useful.</p>
+
+<p>&nbsp;</p>
+
+<h4>Benchmarking (Part 4)</h4>
+
+<p>Just because the smaller test case shows a 50%+ performance boost in some cases, that doesn&#39;t mean we&#39;ll see that same increase in the larger application. <strong>A benchmark of a small piece of code is meaningless until it&#39;s been placed into a larger application.</strong> If you&#39;ve read the previous posts from this blog, this is where I like to do some exhaustive testing of the Ray Tracing code for hundreds of hours. 🫠🫠🫠</p>
+
+<p>The testing methodology is simple:</p>
+
+<ol>
+	<li>There are 20 scenes in the ray tracer</li>
+	<li>We&#39;ll test each of them 50 times over with different parameters</li>
+	<li>The same test will be run once with rejection sampling and once with the analytical method</li>
+	<li>The difference in runtime will be written down</li>
+</ol>
+
+<p class="special-note">I need to note I turned on the use of the real trig functions this time. By default PSRT will use (slightly faster) trig approximations. But to better keep in line with the benchmark from above, 100% authentic-free-range-organic-gluten-free-locally-grown <code>sin()</code>, <code>cos()</code>, <code>atan2()</code>, <code>etc()</code> was used. You can read more about <a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/README.rst#trigonometric-approximations">the approximations here</a>.</p>
+
+<p>After melting all of the CPUs available to me, here are the final results. Everything was compiled in (CMake&#39;s) Release mode, which should give us the fastest code possible (e.g. <code>-O3</code>):</p>
+
+<p><a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_overall_performance.png"><img alt="PSRT overall performance" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_overall_performance.png" /></a></p>
+
+<p>In some cases, rejection sampling was faster, in others using the analytical method was. Visualizing the above as fancy bar charts:</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_overall_barchart.png"><img alt="PSRT overall performance barchart" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_overall_barchart.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>The scene by scene breakdown is more intriguing. Here&#39;s the means and medians for each scene vs. configuration:</p>
+
+<p><a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_scene_by_scene_test_average.png"><img alt="PSRT scene by scene performance average difference" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_scene_by_scene_test_average.png" /></a></p>
+
+<p><a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_scene_by_scene_test_median.png"><img alt="PSRT scene by scene performance median difference" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_scene_by_scene_test_median.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>Here are some of the interesting observations:</p>
+
+<ul>
+	<li>In general, rejection sampling is <strong>MUCH</strong> more performant, and sometimes by a wide margin</li>
+	<li>Clang was having a better time on x86_64 when using the analytical method
+	<ul>
+		<li>But keep in mind GCC is overall more performant, and with rejection sampling instead</li>
+	</ul>
+	</li>
+	<li><code>book1::final_scene</code> and <code>book2::bouncing_spheres</code> have lots of elements in them, but are not using <a href="https://en.wikipedia.org/wiki/Bounding_volume_hierarchy">a BVH tree</a> for ray traversal. Across the board rejection sampling isn&#39;t helping too much, and in fact the analytical method is more performant.</li>
+	<li>After them these scenes have a <code>with_bvh</code> variant (that does use the BVH tree) and they then see a benefit from rejection sampling.
+	<ul>
+		<li>When using analytical sampling the AMD chip isn&#39;t getting hit as hard on performance as the Intel one. This is more easily observed in the <code>book1</code> scenes.&nbsp; Following these, all of the scenes now use a BVH tree</li>
+		<li>On Linux+GCC, Intel and AMD ran the entire test suite in approximately the same time, but AMD was every so slightly faster</li>
+		<li>Linux+Clang ran better on Intel</li>
+		<li>Intel+Windows+GCC had rejection faster, but AMD+Windows+GCC did better with analytical</li>
+		<li>AMD ran the Windows+MSVC code significantly faster (by 2 hours!!)</li>
+		<li>From the assembly inspection above, I wonder if maybe the AMD chips are better at running the <code>call</code> instruction? Or are better at running some of the math functions. This is wild guessing at this point.</li>
+		<li>I do want to note that these are chips from different generations, so it can be like comparing apples to oranges.</li>
+	</ul>
+	</li>
+</ul>
+
+<p>If you want to see the variance from the above tables, <a href="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/psrt_scene_by_scene_test_variance.png">it&#39;s here</a>, but it&#39;s more boring to look at.</p>
+
+<p>&nbsp;</p>
+
+<h4>Benchmarking (Part 5)</h4>
+
+<p>While clang was slower than GCC, it was surprising to see that it actually had a performance benefit when running the analytical method. Seeing how Python also fared better with this method, I thought it might be worth seeing what happens elsewhere. Clang is built upon LLVM, So it&#39;s possible that this could have an effect on other languages of that lineage. Let&#39;s take a trip to the <em>Rust</em>belt.</p>
+
+<p>To keep things as simple as possible, we&#39;re going to port the smaller C++ benchmark (not PSRT). I&#39;ve tried to keep it as one-to-one as possible too. The code is nothing special, so I&#39;ll <a href="https://github.com/define-private-public/PSRayTracing/blob/c71856eb9ee8aeef3f8ebdad912567ec57d0c453/experiments/random_unit_sampling_algorithms/rust_impl/src/main.rs">link it right here</a> if you wish to take a look. This is the first Rust program I have ever written; please be gentle.</p>
+
+<p>Running on the same Intel &amp; Linux machine as above (using <code>rustc</code> v1.83), Debug (no optimizations) reported that rejection was slower and the analytical faster:</p>
+
+<pre>
+Testing with 1000000 points, 500 runs...    [rng_seed=1337]
+run number: rejection_2d_ms, analytical_2d_ms, rejection_3d_ms, analytical_3d_ms
+1: 216, 202, 480, 344
+2: 218, 206, 475, 344
+...
+499: 210, 198, 454, 329
+500: 209, 198, 454, 328
+
+<strong>mean: 211, 199, 459, 332
+median: 211, 199, 458, 331</strong>
+(all times are measured in milliseconds)</pre>
+
+<p>&nbsp;</p>
+
+<p>And with Release turned on rejection was faster:</p>
+
+<pre>
+Testing with 1000000 points, 500 runs...    [rng_seed=1337]
+run number: rejection_2d_ms, analytical_2d_ms, rejection_3d_ms, analytical_3d_ms
+1: 24, 32, 49, 81
+2: 19, 32, 44, 82
+...
+499: 19, 32, 44, 82
+500: 19, 32, 44, 81
+
+<strong>mean: 19, 31, 43, 81
+median: 19, 32, 44, 82</strong>
+(all times are measured in milliseconds)</pre>
+
+<p>&nbsp;</p>
+
+<p>What&#39;s fun to note here is this Rust version is slightly faster than its C++/GCC equivalent. But when the same code is compiled with C++/Clang it doesn&#39;t do as well (<a href="https://docs.google.com/spreadsheets/d/1Y-7FpUeAAA_7uh2KMLjU9HbB8r0rqoSpL_20RS2x9JM/edit?usp=sharing">check rows 11, 12, 21, &amp; 22</a>).&nbsp; I&#39;m glad to see that Rust is exhibiting the same behavior as C++ with and without optimizations.</p>
+
+<p>&nbsp;</p>
+
+<h5>Closing Remarks</h5>
+
+<p>After all of this work, <a href="https://github.com/define-private-public/PSRayTracing">PSRT</a> will stick with using the naive rejection sampling over the <em>beautiful</em> analytical method. It&#39;s frustrating to spend time on something you thought was the better way, only to find out that, well, it isn&#39;t.</p>
+
+<p>If there is one main take away from this post: <strong>always test and measure your code</strong>. Never trust, only test. Unexpected things may happen, and results may change over time. It&#39;s the same thing I&#39;ve been saying since <a href="https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/">the first article</a>. And it bears repeating because not enough people do this. You can inspect assembly, reduce branches, get rid of loops, use faster RNGs, etc. But all of that can go out the window if runtime was never recorded and compared.</p>
+
+<p>Remember, the compiler will always be smarter than you and optimizations are wizard magic that we don&#39;t deserve.</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center;"><img alt="go brr meme" src="https://storage.googleapis.com/sixteenbpp/blog/images/when-greedy-algorithms-can-be-faster/go_brr_meme.jpeg" /></p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Fri Sep 6th, 2024 – 11:40 PM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/cppcast-episode-389-benchmarking-language-keywords">CppCast Episode 389: Benchmarking Language Keywords</a></div>
+  <div class="blog-entry-body"><p>This past week I was invited onto <a href="https://cppcast.com/benchmarking_language_keywords/">CppCast (episode 389) </a>to talk about some of the C++ language benchmarking I&#39;ve been doing and about <a href="https://github.com/define-private-public/PSRayTracing">PSRayTracing</a> a little bit too.&nbsp; I&#39;d like to thank Phil Nash and Timur Doumler for having me on.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://cppcast.com/benchmarking_language_keywords/"><img alt="CppCast Eppisode 389: Benchmarking Language Keywords" src="https://storage.googleapis.com/sixteenbpp/blog/images/cppcast_389_benchmarking_language_keywords.png" /></a></p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Mon Aug 5th, 2024 – 08:15 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/noexcept-can-sometimes-help-or-hurt-performance">`noexcept` Can (Sometimes) Help (or Hurt) Performance</a></div>
+  <div class="blog-entry-body"><p>Over the course of working on <a href="https://github.com/define-private-public/PSRayTracing/">PSRayTracing</a> (PSRT), I&#39;ve been trying to find all sorts of tricks and techniques to squeeze out more performance from this C++ project. Most of it tends to be alternative algorithms, code rewriting, and adjusting data structures. I thought sprinkling the <a href="https://en.cppreference.com/w/cpp/language/final"><code>final</code> keyword</a> like an all purpose seasoning around every class was &quot;free performance gain&quot;. <a href="https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/">But... that didn&#39;t really turn out to be the case</a>.</p>
+
+<p>Back in the early days of this project (2020-2021), I recall hearing about the <a href="https://en.cppreference.com/w/cpp/language/noexcept_spec"><code>noexcept</code> keyword</a> for the first time. I was reading through Scott Meyer&#39;s works and picked up a copy of &quot;Effective Modern C++&quot; and watched a few CppCon talks about exceptions. I don&#39;t remember too much, but what I clearly recall:</p>
+
+<ol>
+	<li>Exceptions are slow, don&#39;t use them</li>
+	<li><code>noexcept</code> will make your code faster</li>
+</ol>
+
+<p>I re-picked up a copy of the aforementioned book whilst writing this. &quot;Item 14: Declare functions <code>noexcept</code> if they won&#39;t emit exceptions&quot; is the section that advocates for this keyword. Due to copyright, I cannot post any of the text here. Throughout the section the word &quot;optimization&quot; is used. But, it neglects any benchmark.</p>
+
+<p>For those of you unfamiliar with <code>noexcept</code>, here is the nutshell explanation: you can use it to mark if a function <span style="text-decoration:underline;">will not throw an exception</span>. This is useful for documentation and defining APIs. Personally, I really like that the keyword exists.</p>
+
+<p>Similar to what I did for the <code>final</code> keyword, I created a <code>NOEXCEPT</code> macro that could be used to toggle on/off the use of <code>noexcept</code> at CMake configuration time. This way I could see by how much the keyword could improve throughput by.</p>
+
+<p>When I did the initial A/B testing, <a href="https://github.com/define-private-public/PSRayTracing/blob/124ac4eacea0734857d4e329a49c54fc30a003c3/README.rst#marking-functions-as-noexcept">I don&#39;t recall seeing that much of a speedup</a>. The rendering code (which is what is measured) had zero exceptions from the start. PSRT does have a few, but they are all exclusively used in setup; not during any performance critical sections. I still left it in (and turned on) because it didn&#39;t seem to hurt anything and potentially help.</p>
+
+<p>Back in April 2024 when I published that <a href="https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/">one article about my findings of <code>final</code>&#39;s performance impact,</a> I submitted it to <a href="https://cppcast.com/">CppCast</a> via email. Timur Doumler (one of the co-hosts) asked me if I had any performance benchmarks about the use of <code>noexcept</code>. I did not.</p>
+
+<p>But since the time I first added in <code>NOEXCEPT</code>, I had created automated testing tools (which also tracks the performance) and an analysis suite to view the data. I decided to re-run all of the same tests (including more), but this time to truly see if <code>noexcept</code> actually does have some impact on performance.</p>
+
+<p>The short answer is: <strong>yes, but also no; it&#39;s complicated and silly</strong>.</p>
+
+<p style="text-align: center;"><img alt="Render of sphere with surface normal" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/normal_sphere.png" /></p>
+
+<h4>&nbsp;</h4>
+
+<h5>Prior Art</h5>
+
+<p>In his email, Mr. Doumler told me that no one else in the C++ community had yet to publish any benchmarks about the keyword; to see if it actually did help performance.</p>
+
+<p>At first, I wasn&#39;t able to find any. But eventually I did stumble across <a href="https://stackoverflow.com/questions/16104057/does-noexcept-improve-performance/65346695#65346695">a 2021 answer to a 2013 stack overflow question</a>. <code>vector::emplace_back()</code> was found to be about 25-30% faster if <code>noexcept</code> was being used. Fairly significant! But this lacks telling us what CPU, OS, and Compiler were used.</p>
+
+<p>In the 11th hour of writing this, <a href="https://www.youtube.com/watch?v=dVRLp-Rwg0k">I found a lighting talk from C++ on Sea 2019</a>. Niels Dekker (while working on <a href="https://itk.org/">ITK</a>) did his own version of the <code>NOEXCEPT</code> macro along <a href="https://github.com/N-Dekker/noexcept_benchmark">with benchmarks</a>. He is reporting some performance improvements, but his talk also said there are places where <code>noexcept</code> was negative. One other finding is that it was compiler dependent.</p>
+
+<p>And, that&#39;s about it. From cursory Googling there is a lot of discussion but not many numbers from an actual benchmark. If any readers happen to have one on hand, please message me so I can update this section.</p>
+
+<p>&nbsp;</p>
+
+<h3>How Does noexcept Make Programs Faster?</h3>
+
+<p>This is something I had some trouble trying to figure out (<a href="https://www.reddit.com/r/cpp_questions/comments/p7dlgb/after_10_years_i_am_still_not_sure_about_the/">and I don&#39;t seem to be the only one</a>). An obvious answer could be &quot;<em>because it prevents you from <a href="https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1886r0.html">using exceptions that slow down your code</a>.</em>&quot; But this isn&#39;t satisfactory.</p>
+
+<p>Among performance minded folks, there is a lot of hate for exceptions. GCC has a compiler flag <code>-fno-exceptions</code> to forcibly turn off the feature. Some folks are trying to remedy the situation by providing alternatives. Boost itself has two: <a href="https://www.boost.org/doc/libs/1_85_0/libs/outcome/doc/html/index.html">Outcome</a> and <a href="https://boostorg.github.io/leaf/">LEAF</a>. Right now LEAF seems to be <a href="https://github.com/boostorg/leaf/blob/e5cf085aee39c1a415121f0e064c0afaa46c0c6f/benchmark/benchmark.md">winning in terms of speed</a>.</p>
+
+<p><a href="https://visualstudiomagazine.com/Articles/2016/10/01/noexcept.aspx?admgarea=ALM">Kate Gregory wrote an article entitled &quot;Make Your Code Faster with noexcept&quot; (2016)</a> that provides more insight. Quote:</p>
+
+<blockquote>
+<p style="margin-left: 40px;"><em>First, the compiler doesn&#39;t have to do a certain amount of setup -- essentially the infrastructure that enables stack unwinding, and teardown on the way into and out of your function -- if no exceptions will be propagating up from it. ...</em></p>
+
+<p style="margin-left: 40px;"><em>Second, the Standard Library is noexcept-aware and uses it to decide between copies, which are generally slow, and moves, which can be orders of magnitude faster, when doing common operations like making a vector bigger.</em></p>
+</blockquote>
+
+<p>While this provides how <code>noexcept</code> can help performance, it neglects to provide something important: a benchmark.</p>
+
+<hr />
+<h2>&nbsp;</h2>
+
+<h3>Why &quot;Don&#39;t Use noexcept&quot;?</h3>
+
+<p>I didn&#39;t understand this either. I couldn&#39;t find many (simple) resources advocating for this camp. I found a paper (from 2011) entitled &quot;<a href="https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2011/n3248.pdf"><code>noexcept</code> Prevents Library Validation</a>&quot;. I&#39;m not sure how relevant it is 13+ years later. Else, Mr. Doumler sent me a good case via email:</p>
+
+<blockquote>
+<p style="margin-left: 40px;"><em>Meanwhile, sprinkling <code>noexcept</code> everywhere causes lots of other problems, for example if you want to use things like a throwing assert for testing your code that just doesn&#39;t work.</em></p>
+</blockquote>
+
+<p>Assertions are great for development and debugging; everyone loves them. They are absolutely vital to building any major C/C++ project. This is something I do not want taken away.</p>
+
+<p>Personally, I like the <code>noexcept</code> keyword. It&#39;s very useful for documentation and telling others how to use code. We&#39;ve all been burned by an unexpected exception at some point. It&#39;s nice to have in the language in my opinion for this reason.</p>
+
+<p>&nbsp;</p>
+
+<h3>How This Test Works</h3>
+
+<p>It&#39;s the exact same as the last time for what I did with <code>final</code>. But for those of you who aren&#39;t familiar, let me explain:</p>
+
+<ol>
+	<li>It&#39;s a simple A/B test of the <code>noexcept</code> keyword being turned on and off with the same codebase</li>
+	<li>The test is an implementation of Peter Shirley&#39;s <a href="https://raytracing.github.io/">Ray Tracing in One Weekend book series</a></li>
+	<li>It&#39;s fully CPU bound and vanilla-as-possible-modern-standard-C++</li>
+	<li>All scenes from the book are rendered 50 times <strong>without</strong> <code>noexcept</code> turned on
+	<ul>
+		<li>Each test case has slightly different parameters (e.g. image size, number of cores, random seed, etc.)</li>
+		<li>One pass can take about 10-20 hours.</li>
+		<li><strong>Only the time spent rendering is measured</strong> (using nanoseconds)</li>
+	</ul>
+	</li>
+	<li>Once again, we repeat the above, but <strong>with</strong> <code>noexcept</code> turned on</li>
+	<li>The off vs. on time difference is calculated as a percentage
+	<ul>
+		<li>E.g. <code>off=100 ms</code> and <code>on=90 ms</code>. Speedup is 10 ms, so we say that&#39;s an +11% performance boost</li>
+	</ul>
+	</li>
+	<li>All of the above is repeated for a matrix of different chips (AMD, Intel, Apple), different operating systems (Linux, Mac, Windows) and different compilers (GCC, clang, MSVC). This time I tested 10 different configurations</li>
+</ol>
+
+<p>All of the code was built using CMake and compiled with Release mode on, which should give the most performant runtimes (.e.g GCC/clang use <code>-O3</code> and MSVC has its equivalent).</p>
+
+<p>One important thing I do need to state about this test:</p>
+
+<p>Unfortunately, 100% of all images rendered did not come out the same. The overwhelming super majority did; and when they were different it&#39;s negligible. When I first worked on this project <a href="https://old.reddit.com/r/cpp/comments/7i21sn/til_uniform_int_distribution_is_not_portable/">I didn&#39;t know <code>std::uniform_int_distribution</code> doesn&#39;t actually produce the same results on different compilers</a>. (A major issue IMO because that means the standard isn&#39;t really portable). A few scenes (such as Book 2&#39;s final scene) use an RNG to place objects and generate some noise textures. For example, GCC &amp; MSVC (regardless of CPU/OS) seem to produce the exact same scene and same pixels. But clang has a few objects in different positions and some noise is different. Surprisingly, it is mostly intact compared to the other two. I find this astonishing. But I don&#39;t think the difference is that much to require a redo of the experiment. You can see the comparisons in <a href="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/book_2_final_scene_renders.zip">this hefty .zip file</a>.</p>
+
+<p>This discrepancy shouldn&#39;t matter that much for two reasons:</p>
+
+<ol>
+	<li>The differences are not too significant (see the .zip linked above if you&#39;re skeptical)</li>
+	<li>The comparison is <code>&lt;CHIP&gt; + &lt;OS&gt; + &lt;COMPILER&gt; with &lt;FEATURE&gt; off</code> vs. <code>&lt;CHIP&gt; + &lt;OS&gt; + &lt;COMPILER&gt; with &lt;FEATURE&gt; on</code></li>
+</ol>
+
+<p>With this said, at the end I do some fun number crunching in a Jupyter notebook and show you some colourful tables &amp; charts alongside analysis.</p>
+
+<p class="special-note">Please keep in mind that this is a fairly specific benchmark. The (initial) goal of PSRT was to render pretty CGI pictures really fast (without breaking the original books&#39; architecture). It works in a mostly recursive manner. Different applications such as financial analysis, protein folding simulations, or training AIs could have different results.</p>
+
+<p>If you&#39;re wondering how I can turn off and on the use of <code>noexcept</code>, it works by (ab)using preprocessor macros:</p>
+<script src="https://gist.github.com/define-private-public/73ab82890d63671095c8d050349a2ac2.js?file=Common.hpp"></script><script src="https://gist.github.com/define-private-public/73ab82890d63671095c8d050349a2ac2.js?file=CMakeLists.txt"></script>
+
+<p>And thus we powder it all around the code like so:</p>
+<script src="https://gist.github.com/define-private-public/73ab82890d63671095c8d050349a2ac2.js?file=use_of_noexcept.cpp"></script>
+
+<p>Once again, this is something <strong>I would never <u>EVER</u> do in production code</strong>; and you shouldn&#39;t either.</p>
+
+<p class="special-note">Also, I am (now) aware there is <code>noexcept(true)</code> and <code>noexcept(false)</code> that I could have done instead. I didn&#39;t know about it at the time and did this ugly C macro. Please forgive me merciless internet commentators.</p>
+
+<p>Almost every function in this project has been marked with this macro. There are a few... exceptions... but these are in the setup or teardown sections of the program. None are in any of the rendering code (which is what is measured). This should allow us to see if marking functions as <code>noexcept</code> help performance or not.</p>
+
+<p>PSRayTracing is not a &quot;real world&quot; application. Primarily serving as an amateur academic project, it does try to be modeled based on real world experiences. Personally, I do believe that commercial products like Unreal Engine or <a href="https://renderman.pixar.com/">Pixar&#39;s RenderMan</a> can serve as better benchmarking tools in general. But I have no idea about their ability to A/B test the C++ language, algorithms, data structures, etc. This is something PSRT has been set up to do.</p>
+
+<p>&nbsp;</p>
+
+<h3>Results From The Suite</h3>
+
+<p>Running the entire test suite an exhausting 22 times, it took cumulatively an absolutely melting 370 hours 🫠🫠</p>
+
+<p class="special-note">One thing I need to note is the AMD+Windows runs are &quot;artificial&quot; in a sense. When I did the initial analysis I noticed some of the variance in the data was higher than desired. So I ran the suite a second time (once for GCC and MSVC), but for each test case I took the fastest runtime between both attempts. This way AMD+Windows could be given the best chance possible.</p>
+
+<p>So, does <code>noexcept</code> help performance?&nbsp; Here&#39;s the grand summary:</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Overall Performance of noexcept" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/overall_performance.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>We can see here that in some configurations, <code>noexcept</code> gave a half to full percent performance increase; which I think unfortunately could be declared fuzz. In the situations where there was a drop, it&#39;s around -2% on average. <code>noexcept</code> isn&#39;t really doing that much; it&#39;s even acutely harmful for performance. Bar charting that data:</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Overall Performance of noexcept Barchart" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/overall_performance_barchart.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>I do need to remind: this is not supposed to be a Monday Night Compiler Smackdown cage match, but once again there are interesting things to observe:</p>
+
+<ul>
+	<li>Like last time, the Apple Silicon trounces everything else, and by a significant amount</li>
+	<li>clang (on Linux) is considerably slower than GCC</li>
+	<li>If you were to overlay the AMD bars on top of the Intel ones, it almost looks the same</li>
+	<li>Your OS (the runtime environment) can have a significant impact on throughput. GCC is doing way better on Linux than Windows.</li>
+</ul>
+
+<p>Summaries are okay, but they don&#39;t tell the whole picture. Next, let&#39;s see how many of the test cases had a performance increase. While a 1% speedup could not seem like much, for some applications that does equal a lot in cost savings.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Percent of Test Cases Faster" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/percent_of_test_cases_faster.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>What about the inverse? Here are the percentages of tests having a slowdown with <code>noexcept</code>:</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Percent of Test Cases Slower" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/percent_of_test_cases_slower.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>I don&#39;t think there&#39;s too much we can glean from these tables other than the runtime delta typically stays within the (very) low single percents. Looking at it per scene tells a different story:</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Average Delta Percent If noexcept Used" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/mean_delta_percent_if_noexcept_used.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>When we look at the average &quot;percentage performance delta per scene&quot;, we can clearly see there are some scenes that benefit quite well from <code>noexcept</code>, others are getting hit quite hard. It&#39;s also interesting to note how many scenes are barely helped or hurt. Means are good, but seeing the median gives a more fair look at the results. When that is done with the above data, <code>noexcept</code> looks to be less impactful:</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Median Delta Percent If noexcept Used" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/median_delta_percent_if_noexcept_used.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>If you want to look at the variance, <a href="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/variance_delta_percent_if_noexcept_used.png">I have the table right here</a>. I don&#39;t think it&#39;s as interesting as the above two (though you can have it anyways).</p>
+
+<p>So overall, it mostly looks like <code>noexcept</code> is either providing a very marginal performance increase or decrease. <strong>Personally, I think it is fair to consider the measured performance increase/hit from <code>noexcept</code> to be fuzz</strong>; that means it kind of does nothing at all to help runtime speed.</p>
+
+<p>There are some interesting &quot;islands&quot; to take a look at from the above chart.</p>
+
+<p>&nbsp;</p>
+
+<h3>The AMD+Ubuntu+GCC configuration</h3>
+
+<p>We actually see a very significant and consistent performance boost of 6-8% with <code>noexcept</code> turned on! But this is only for the scenes from book 1. When I first saw this I was wondering what could have caused it, and eventually I realized it was related to the architecture of the scene geometry from the first book.</p>
+
+<p>All scene data is stored inside of a <code>std::vector</code> called <a href="https://github.com/define-private-public/PSRayTracing/blob/acb04979c49ea8adef8c4afc349a96015834835e/render_library/Objects/HittableList.hpp"><code>HittableList</code></a>. For these scenes, when the ray tracer is traversing through the scene geometry it&#39;s doing a sequential search; this was done for simplicity. Any practical graphics engine (realtime or not) will use a tree like structure instead for the scene information.</p>
+
+<p>Starting in book 2 the second task is to use a <a href="https://en.wikipedia.org/wiki/Bounding_volume_hierarchy">BVH</a> to store the scene. This provides a massive algorithmic boost to the performance. All subsequent scenes in this book use a BVH instead of a list of objects. This is why we don&#39;t see that same speedup in Book 2 (and in fact, a minor performance hit).</p>
+
+<p>From up above, if you remember one of the arguments for &quot;<code>noexcept</code> is faster&quot; is the standard library is aware and can use (faster) memory move operations instead of (slower) copy operations. This is most likely the cause of the performance increase. But the BVH node is not part of <code>std::</code>, and doesn&#39;t have move constructors implemented. Therefore when using it <code>noexcept</code> does nearly nothing.</p>
+
+<p>What is more fascinating is that the boost was <strong>only</strong> seen on AMD+Ubuntu+GCC configuration. Swap out any one of those variables (CPU, OS, or compiler) and no significant gain (in fact a tiny loss) was observed.</p>
+
+<p>&nbsp;</p>
+
+<h4>Digging A Little Bit Deeper</h4>
+
+<p>So... There&#39;s actually two BVH tree implementations in PSRT. One of them is the original from book 2. The other one is something I cooked up called <a href="https://github.com/define-private-public/PSRayTracing/blob/acb04979c49ea8adef8c4afc349a96015834835e/render_library/Objects/BVHNode_MorePerformant.cpp"><code>BVHNode_MorePerformant</code></a>. It&#39;s 100% API compatible with the standard <code>BVHNode</code>. <a href="https://github.com/define-private-public/PSRayTracing/blob/acb04979c49ea8adef8c4afc349a96015834835e/README.rst#bvh-tree-as-a-list">But under the hood it works a little differently</a>. The quick gist of it: instead of using a tree of pointers to store and traverse, the data is stored in a <code>std::vector</code> in a particular order. The traversal is still done in a tree-like manner, but because of the memory layout of what needs to be checked it can be more efficient. Years ago when I first wrote and tested this class I did see a small speedup in lookups.</p>
+
+<p>It might be good to measure replacing <code>HittableList</code> in book 1 (on AMD+Ubuntu+GCC) with both BVH implementations and see the results:</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center;"><img alt="Book1 BVH vs. HittableList Overall" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/book1_amd_gcc_linux_overall_performance.png" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="Book1 BVH vs. HittableList Overall Barchart" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/book1_amd_gcc_linux_overall_performance_barchart.png" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="Book1 BVH vs. HittableList Average Delta Percent" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/book1_amd_gcc_linux_mean_delta_percent_if_noexcept_used.png" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><img alt="Book1 BVH vs. HittableList Median Delta Percent" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/book1_amd_gcc_linux_median_delta_percent_if_noexcept_used.png" /></p>
+
+<p>(Variance table <a href="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/book1_amd_gcc_linux_variance_delta_percent_if_noexcept_used.png">available here</a> if you&#39;re interested (it&#39;s boring)).</p>
+
+<p>Using <code>std::vector</code> with a dash of <code>noexcept</code> in your code will make that container faster. But we have to remember it&#39;s algorithmically inefficient compared to a BVH. And slapping <code>noexcept</code> on top of that (the BVH) can actually be harmful!!. And much to my dismay, my <code>BVHNode_MorePerformant</code> was beaten by the book&#39;s default implementation 😭</p>
+
+<p>Shortly below there is a secondary benchmark that has a &quot;reduced&quot; version of <code>HittableList</code> across the configurations. But I would like to address a few other points of interest.</p>
+
+<p>&nbsp;</p>
+
+<h3>Intel+Windows+MSVC</h3>
+
+<p>Looking at the mean/median tables from <a href="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/median_delta_percent_if_noexcept_used.png">further above</a>, the Intel+Windows+MSVC run seems to get a little bit of a hit overall when using <code>noexcept</code>. The <code>book2::perlin_sphere::</code> series of tests steer towards a negative impact. And there are two scenes that have a whopping -10% performance hit with the keyword enabled!!</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center;"><img alt="Perlin Sphere with Trilinear Noise Interpolation" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/trilinear_noise_interpolation.png" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p>I am wholly confused as to why this is happening. As you can see, they are pretty simple scenes. Looking at the two cases with the larger performance hit, they are using <a href="https://en.wikipedia.org/wiki/Trilinear_interpolation">trilinear interpolation</a> (<a href="https://en.wikipedia.org/wiki/Hermite_interpolation">hermetic</a> and non-hermetic). The code <a href="https://github.com/define-private-public/PSRayTracing/blob/acb04979c49ea8adef8c4afc349a96015834835e/render_library/PerlinReal.cpp#L68">is right here</a>. There are some 3-dimensional loops inside of the interpolation over some <code>std::array</code> objects. This is <em>maybe</em> the source of the slowdown (with <code>noexcept</code> on) but I do not want to speculate too much. It&#39;s a very minor subset of the test suite..</p>
+
+<p class="special-note">If you look at the source code, those three dimensional loops can be manually unrolled, which <em>could</em> (and I stress &quot;<em>could</em>&quot;) lead to a performance boost. Sometimes the compiler is smart enough to unroll loops for us in the generated assembly. I didn&#39;t want to do it at the time since I thought it was going to make the code overly complex and a maintenance nightmare. This is something to take a look at later.</p>
+
+<p>&nbsp;</p>
+
+<h3>Looking (a little) More At std::vector</h3>
+
+<p>I think it is fair to conclude using <code>std::vector</code>, with <code>noexcept</code> does lead to a performance increase (compared to without the keyword). <strong>But this is only happening on one configuration.</strong></p>
+
+<p>I thought it would be best to write up <a href="https://github.com/define-private-public/PSRayTracing/blob/ab524a577ccbe3e4a2884a6f958f1b9a10af3ae5/experiments/noexcept_keyword/noexcept_vector_search_test.cpp">a small testing program</a> (that operates just like <code>HittableList</code>). It does the following:</p>
+
+<ol>
+	<li>Generate a list of random numbers</li>
+	<li>Generate a number to search for (could be out of range)</li>
+	<li>Try to find that number in the list
+	<ul>
+		<li>With this part we turn on/off <code>noexcept</code></li>
+	</ul>
+	</li>
+</ol>
+<script src="https://gist.github.com/define-private-public/73ab82890d63671095c8d050349a2ac2.js?file=find_index.cpp"></script>
+
+<p>The program (of course) was compiled with <code>-O3 </code>and was supplied the same arguments across each configuration. It&#39;s run like this and here is the output:</p>
+
+<pre>
+ben@computer:folder$ ./list_test_clang_17 1337 9999999 10000
+Checking 9999999 elements, 10000 times...
+  plain average time: 2976 us
+  `noexcept` average time: 2806 us
+
+  plain median time: 2982 us
+  `noexcept` median time: 2837 us</pre>
+
+<p>&nbsp;</p>
+
+<p>After testing on each configuration these were the grand results:</p>
+
+<p><img alt="std::vector noexcept Search Test Results Table" src="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/vector_search_test_results_table.png" /></p>
+
+<p>&nbsp;</p>
+
+<p>This is a very limited test. We can see there is a fairly consistent speedup for all x86 cases (and a very nice one for AMD+Windows). Apple Silicon has nothing and is likely fuzz.</p>
+
+<p>The people who like <code>noexcept</code> might find this validating, but it&#39;s at odds with the tables from measuring PSRT: <strong>The speedups here aren&#39;t being matched with all the results from book 1</strong>, which uses the same &quot;sequential search in <code>std::vector</code>&quot; technique.</p>
+
+<p>Look at <a href="https://storage.googleapis.com/sixteenbpp/blog/images/noexcept-can-sometimes-help-or-hurt-performance/median_delta_percent_if_noexcept_used.png">the median chart from above</a>. The only reliable speedup came from AMD+Linux+GCC, of around +7%. All other configurations were flat or possibly fuzz. In this mini test AMD+Linux+GCC meters 12% and many other configurations have a significant positive impact from <code>noexcept</code>.</p>
+
+<p><strong>In a more complex program the speedup wasn&#39;t reproducible</strong>.</p>
+
+<p>From the last article, a commenter on HackerNews mentioned how they didn&#39;t like PSRT as a benchmark because it was too large. They preferred tests of small components. This is absolutely ludicrous since as software developers we&#39;re not writing small programs. We are building complex systems that interact, move memory around, switch contexts, invalidate cache, wait on resources, etc.</p>
+
+<p>Just because a speedup is seen for a single component doesn&#39;t mean it will show up later when programs become large and have a lot of moving parts.</p>
+
+<p>Hopefully I&#39;ve illustrated this point.</p>
+
+<p>&nbsp;</p>
+
+<h5>Looking At The Assembly</h5>
+
+<p>C++ isn&#39;t what&#39;s running on the CPU, it&#39;s the generated assembly code. Usually to prove that something is faster, I&#39;ve seen other articles post the generated assembly code, saying &quot;<em>It&#39;s optimized!!&quot;</em> I saw this for <code>final</code>, but what is <code>noexcept</code> doing?</p>
+
+<p>Using the above testing program, let&#39;s see what the difference is in the generated x86 assembly (from GCC 13 with <code>-O3</code>):</p>
+<script src="https://gist.github.com/define-private-public/73ab82890d63671095c8d050349a2ac2.js?file=find_index_plain.asm"></script><script src="https://gist.github.com/define-private-public/73ab82890d63671095c8d050349a2ac2.js?file=find_index_noexcept.asm"></script>
+
+<p>These two look... <a href="https://i.redd.it/6lwrp2xhplg41.jpg">oddly the same</a>. I&#39;m only spotting one difference, this line where the arguments are swapped in order:</p>
+
+<pre>
+&lt;   cmp DWORD PTR [rdx+rax*4], esi
+
+---
+
+&gt;   cmp esi, DWORD PTR [rdx+rax*4]</pre>
+
+<p>&nbsp;</p>
+
+<p>I&#39;m not well versed in assembly, but what I can tell <a href="https://www.felixcloutier.com/x86/cmp">from documentation</a>, it doesn&#39;t seem like the order of arguments from the <code>cmp</code> instruction instruction matter. <strong>If they do, someone please tell me so I can correct this information</strong>. I&#39;d be VERY surprised if this swapped order is what caused the speedup in the limited benchmark above. Anyone who understands assembly much better than I, please provide insight. I would be grateful.</p>
+
+<p>Assembly inspection usually can give insights, but it&#39;s no excuse for not measuring your code.</p>
+
+<p>Wrapping up this detour into <code>std::vector</code>, other STL containers <strong><em><span style="text-decoration:underline;">might</span></em></strong> have a performance increase, but we do not know for certain. Thus far only measurements from <code>std::vector</code> have been taken. I have no idea if something like <a href="https://en.cppreference.com/w/cpp/container/unordered_map"><code>std::unordered_map</code></a> is impacted by <code>noexcept</code>. There are many other popular alternative container implementations (e.g. <a href="https://www.boost.org/doc/libs/1_85_0/doc/html/container.html">Boost</a>, <a href="https://abseil.io/docs/cpp/guides/container">Abseil</a>, <a href="https://github.com/facebook/folly/tree/main/folly/container">Folly</a>, <a href="https://doc.qt.io/qt-6/containers.html">Qt&#39;s</a>). Do these get helped, hurt, or placebo&#39;d by <code>noexcept</code>? <strong>We don&#39;t know</strong>.</p>
+
+<p>And keep in mind, in the context of PSRT, we only saw a consistent speedup on one specific configuration (out of ten); some even saw a minute drop. The CPU, OS, and compiler play a role.</p>
+
+<hr />
+<p>&nbsp;</p>
+
+<p>I really question whether <code>noexcept</code> helps performance. Just like with <code>final</code>, it doesn&#39;t seem to be doing much. Some cases it helps, other cases it hurts. We did find one solid case for Book 1 with AMD+Linux+GCC; but that&#39;s it.</p>
+
+<p>And after seeing that overall hit/gain can be from -3% to +1%, I&#39;ve actually become skeptical and <a href="https://github.com/define-private-public/PSRayTracing/commit/acb04979c49ea8adef8c4afc349a96015834835e">decided to turn it off</a>. I still like the keyword as a documentation tool and hint to other programmers. But for performance, it mostly looks to be a sugar pill.</p>
+
+<p>My most important advice is the same as last time: <strong>don&#39;t trust anything until you&#39;ve measured it.</strong></p>
+
+<hr />
+<p>&nbsp;</p>
+
+<h6>Last Notes</h6>
+
+<p>I really didn&#39;t think I was going to be running such a similar test again and so quickly. This has inspired me to take a look at a few other performance claims I&#39;ve heard but yet to have seen numbers posted for.</p>
+
+<p>As for the benchmark itself, I would have loved to throw in some Android and iOS runs as well, but I do not have the bandwidth for that, or infrastructure to make it possible unless I were to quit my day job. We don&#39;t have too much high performance computing on mobile and ARM chips yet, but I can see it being something in the future. This is one of the deficiencies of this test. I&#39;d really like to throw Windows+clang into the mix too, but right now there isn&#39;t a turnkey solution like how <a href="https://github.com/skeeto/w64devkit">w64devkit</a> provides GCC for Windows. Embedded and other &quot;exotic&quot; chips/runtimes have been given any love either. Maybe even playing with an IBM z16 might be fun 😃</p>
+
+<p>PSRT doesn&#39;t also have a good way to &quot;score&quot; how intense a scene is. E.g. number of objects, what kinds, how complex, what materials, textures, lighting, etc. All that can be done right now is &quot;feature on vs. feature off&quot;.&nbsp; I&#39;d also want to expand this to other applications out side of computer graphics too.</p>
+
+<p>If you want to follow what goes on with PSRayTracing, check out the <a href="https://github.com/define-private-public/PSRayTracing">GitHub page</a> and subscribe to the releases. But do note the active development is done over <a href="https://gitlab.com/define-private-public/PSRayTracing">on GitLab</a>.&nbsp; You can find all of my measurements and analysis tools <a href="https://github.com/define-private-public/PSRayTracing/tree/ab524a577ccbe3e4a2884a6f958f1b9a10af3ae5/experiments/noexcept_keyword">in this section of the repo</a>.</p>
+
+<p>EDIT Aug. 10th 2024:&nbsp; There has been discussion about this article on <a href="https://www.reddit.com/r/cpp/comments/1ekmduu/noexcept_can_sometimes_help_or_hurt_performance/">/r/cpp</a> and <a href="https://news.ycombinator.com/item?id=41163083">Hacker News</a>.&nbsp; Read at your leisure.</p>
+
+<p>Till next time~</p>
+
+<hr />
+<h6>&nbsp;</h6>
+
+<h6>Vector Pessimization</h6>
+
+<p><span style="font-size:12px;"><em>(This section was added on Aug. 24th, 2024)</em></span></p>
+
+<p>I wanted to give it about two weeks before reading the comments in the discussion threads (see above).&nbsp; On Hacker News there was <a href="https://news.ycombinator.com/item?id=41165742">an insightful comment</a>:</p>
+
+<p style="margin-left: 40px;"><cite>... The OP is basically testing the hypothesis &quot;Wrapping a function in `noexcept` will magically make it faster,&quot; which is (1) nonsense to anyone who knows how C++ works, and also (2) trivially easy to falsify, because all you have to do is look at the compiled code. Same codegen? Then it&#39;s not going to be faster (or slower). You needn&#39;t spend all those CPU cycles to find out what you already know by looking.</cite></p>
+
+<p style="margin-left: 40px;"><cite>There <i>has</i> been a fair bit of literature written on the performance of exceptions and noexcept, but OP isn&#39;t contributing anything with this particular post.</cite></p>
+
+<p style="margin-left: 40px;"><cite>Here are two of my own blog posts on the subject. The first one is just an explanation of the &quot;vector pessimization&quot; which was also mentioned (obliquely) in OP&#39;s post &mdash; but with an actual benchmark where you can see why it matters. <a href="https://quuxplusone.github.io/blog/2022/08/26/vector-pessimization/#conclusion-the-vector-pessimization" rel="nofollow">https://quuxplusone.github.io/blog/2022/08/26/vector-pessimi...</a> <a href="https://godbolt.org/z/e4jEcdfT9" rel="nofollow">https://godbolt.org/z/e4jEcdfT9</a></cite></p>
+
+<p style="margin-left: 40px;"><cite>The second one is much more interesting, because it shows where `noexcept` can actually have an effect on codegen <i>in the core language</i>. TLDR, it can matter on functions that the compiler can&#39;t inline, such as when crossing ABI boundaries or when (as in this case) it&#39;s an indirect call through a function pointer. <a href="https://quuxplusone.github.io/blog/2022/07/30/type-erased-inplace-printable/#benefits-from-noexcept" rel="nofollow">https://quuxplusone.github.io/blog/2022/07/30/type-erased-in...</a></cite></p>
+
+<p>&nbsp;</p>
+
+<p>About 10 days later the author wrote an article entitled <a href="https://quuxplusone.github.io/blog/2024/08/16/libstdcxx-noexcept-hash/"><code>noexcept</code> affects libstdc++&#39;s <code>unordered_set</code></a>.&nbsp; I had some concern that this keyword may impact performance in other STL containers and the author has provided a benchmark which proves such a case.&nbsp; I thank them for that.&nbsp; Vector Pessimization was something I wasn&#39;t aware about and does seem like a fairly advanced topic; which isn&#39;t apparent at the surface level of C++.&nbsp; I recommend you go and read their posts.</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Mon May 13th, 2024 – 08:05 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/addressing-that-post-about-final">Addressing That Post About `final`</a></div>
+  <div class="blog-entry-body"><p>I have never had to do a follow up to any blog post I&#39;ve ever written; but I feel like I really need to with <a href="https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/">that last one</a> and clarify a few things.</p>
+
+<p>At the time of publishing I thought I was merely lighting a firecracker, but it seems more like I set off a crate of dynamite.&nbsp; I knew there was going to be some discussion about the results, but I did not anticipate the nearly 350+ comments.&nbsp; People are <em>very</em> <em>particular</em> about performance and benchmarking (as it is fair to be).&nbsp; Everyone is allowed to call BS if they see fit.</p>
+
+<p>It&#39;s been three weeks since the article went live. I wanted to take some time for the dust to settle in order to read through what everyone wrote; and respond.&nbsp; If you haven&#39;t been privy to any of the discussion, it&#39;s been on <a href="https://www.reddit.com/r/cpp/comments/1caarda/the_performance_impact_of_cs_final_keyword/">/r/cpp</a> and <a href="https://news.ycombinator.com/item?id=40116644">Hacker News</a>.&nbsp; Along with some talk on <a href="https://hackaday.com/2024/04/24/the-performance-impact-of-cs-final-keyword-for-optimization/">Hackaday</a>.</p>
+
+<p>&nbsp;</p>
+
+<h3>&quot;I didn&#39;t understand how to use final properly&quot;</h3>
+
+<p>I saw this comment pop up a few times; that I missed the point of <code>final</code>.&nbsp; The proper use of <code>final</code> wasn&#39;t the thesis of my article.</p>
+
+<p>There are plenty of resources explaining how to use it and its purpose in the design of a C++ application.&nbsp; <strong>My concern was other articles claiming it can improve performance without a benchmark to back up their statements</strong>.&nbsp; Please read the titles of these articles:</p>
+
+<ul>
+	<li><a href="https://devblogs.microsoft.com/cppblog/the-performance-benefits-of-final-classes/">The Performance Benefits of Final Classes</a> (March 2020)</li>
+	<li><a href="https://blog.feabhas.com/2022/11/using-final-in-c-to-improve-performance/">Using final in C++ to improve performance</a> (November 2022)</li>
+	<li><a href="https://levelup.gitconnected.com/c-performance-improvement-through-final-devirtualization-258e7ae1d2b5">All About C++ final: Boosting Performance with DeVirtualization Techniques</a> (January 2024)</li>
+</ul>
+
+<p>None of these have any metrics posted.&nbsp; But all of these titles imply &quot;<em><code>final</code> makes code go faster</em>&quot;.&nbsp; They all talk about how <code>final</code> is used, including the generated assembly and what&#39;s happening at the machine level.&nbsp; That fills the &quot;<em>how?</em>&quot; and &quot;<em>why?</em>&quot; of <code>final</code>.&nbsp; But that isn&#39;t a benchmark.&nbsp; To say it improves performance but not have any proof to back it up is dangerous.</p>
+
+<p>For the longest time we have been living in an environment where we skim articles (reading only a headline) and glean information to take it as fact; without actually verifying anything.&nbsp; Part of my previous blog post was trying to highlight what can happen if you do this.&nbsp; It is what I did initially, noticed nothing was matching those claims and decided to test it a bit further.</p>
+
+<p class="special-note">There was one thing I was wrong about: <a href="https://bannalia.blogspot.com/2014/05/fast-polymorphic-collections-with.html">someone else did a benchmark of <code>final</code> in the past</a>.&nbsp; In their case they found a consistent performance increase.&nbsp; They even re-ran their benchmark and saw the same results from 10 years ago.&nbsp; In my case it was faster in some instances, slower in others.&nbsp; I thank them for reaching out and have updated my older post.</p>
+
+<p>I recall there being a comment about how my &quot;improper&quot; use of final could be a reason why clang had its performance slowdown.&nbsp; My counter to that: <strong>GCC had a consistent performance increase with use of the keyword</strong>.&nbsp; It was used the keyword as intended (and described by the linked articles above).&nbsp; I put it on many classes that have no further subclassing, and there was a performance boost in this case.&nbsp; Clang on the other hand, had a decrease with the <strong>exact same code</strong>.</p>
+
+<h3>&nbsp;</h3>
+
+<h3>&quot;This isn&#39;t a good benchmark&quot;</h3>
+
+<p>The previous article was written with the context that others may have read the project&#39;s README or have read some of the other prior posts.&nbsp; Let me rewind a little:</p>
+
+<p><a href="https://gitlab.com/define-private-public/PSRayTracing/">PeterShirleyRayTracing</a>, a.k.a. PSRayTracing (a.a.k.a. PSRT) didn&#39;t start out as a benchmarking tool.&nbsp; <a href="https://16bpp.net/blog/post/psraytracing-a-revisit-of-the-peter-shirley-minibooks-4-years-later/">I wanted to revisit a ray tracing book series</a> I read when I was fresh out of university (2016), but this time with all the knowledge of C/C++ I had accumulated since that time.&nbsp; I first went through the books <a href="https://16bpp.net/blog/post/ray-tracing-book-series-review-nim-first-impressions/">but as an exercise to learn Nim</a>.&nbsp; Between then and 2020 I had seen images from the book pop up online here and there. Mr. Shirley had actually made <a href="https://raytracing.github.io/">the mini-books</a> free to read during that time.&nbsp; Reading the book&#39;s old code and the newer editions, I noticed there were a lot of areas for improvement in performance.&nbsp; PSRT at first was an experiment in writing performant C++ code, but with some constraints:</p>
+
+<ol>
+	<li>Has to follow the book&#39;s original architecture</li>
+	<li>Needs to be cleaner and modern</li>
+	<li>Must showcase safer C++
+	<ul>
+		<li>E.g. The book&#39;s <a href="https://github.com/RayTracing/InOneWeekend/blob/e6eed60166360c18ef5d87b4938a207f78a36a2a/src/sphere.h#L24">old code used raw pointers</a>. <code>std::shared_ptr</code> was used in later versions; I know this is a bottleneck but that is something I&#39;ve meant to look at later at later on.&nbsp; (<a href="https://github.com/define-private-public/PSRayTracing/blob/124ac4eacea0734857d4e329a49c54fc30a003c3/render_library/HitRecord.hpp#L13">But some other work as been done.</a>)</li>
+	</ul>
+	</li>
+	<li>Must be standard and portable</li>
+	<li>Full support for GCC and Clang (then later MSVC)</li>
+	<li>Be &quot;Vanilla C++&quot; as possible.&nbsp; I don&#39;t want to force someone to bring in a hefty library
+	<ul>
+		<li>There is an exception for libraries (like PCG32) that allow an increase in performance and are easily integrated like being a single header library</li>
+	</ul>
+	</li>
+	<li>Be able to turn on and off changes from the book&#39;s original code to see the effects of rewriting parts</li>
+	<li>Extending is okay, but they can&#39;t violate any of the above rules
+	<ul>
+		<li>E.g. multithreading was added and some new scenes.&nbsp; The Qt UI is a massive exception to rule no. 6 (but it&#39;s not required to run the project)</li>
+	</ul>
+	</li>
+</ol>
+
+<p>For the initial revision of PSRT, its code was 4-5x faster than the books&#39; original code (single threaded).&nbsp; I was very proud of this.</p>
+
+<p>Later on a <a href="https://16bpp.net/blog/post/automated-testing-of-a-ray-tracer/">Python script was added so PSRT could be better tested</a> via fuzzing.&nbsp; Parameters could differentiate scenes, how many cores to use, how many samples per pixel, ray depth, etc.&nbsp; It was both meant to check for correctness and measure performance.&nbsp; <span style="text-decoration:underline;">The measurement of performance only is the time spent rendering</span>.&nbsp; Startup and teardown of PSRT is not measured (and it&#39;s negligible). This way if I came across some new technique a change could be made and verify it does not break anything from before.&nbsp; The script has evolved since then.</p>
+
+<p>To explain how the testing and analysis operates a little more simpler:</p>
+
+<ol>
+	<li>Each scene would be fuzz tested, say three times (real tests do way more), and their runtimes recorded.&nbsp; Parameters could be wildly different
+	<ul>
+		<li>For this example let&#39;s say once scene resulted in the times of <code>[3.1, 10.5, 7.4]</code> (real testing used 30 values)</li>
+	</ul>
+	</li>
+	<li>Then the same suite would be run, but with a change in code
+	<ul>
+		<li><code>times=[2.7, 8.8, 6.9]</code></li>
+	</ul>
+	</li>
+	<li>From this a percentage difference of each test case would be computed
+	<ul>
+		<li><code>[13%, 17%, 7%]</code></li>
+	</ul>
+	</li>
+	<li>A mean &amp; median per scene could be calculated
+	<ul>
+		<li><code>mean=12.3%</code>, <code>median=13%</code></li>
+		<li>Each scene is different.&nbsp; Sometimes radically, other times only slightly.&nbsp; That&#39;s why it&#39;s important to look at the results per scene</li>
+	</ul>
+	</li>
+	<li>From there a cumulative &quot;<em>how much faster or slower</em>&quot; for the change could be found</li>
+</ol>
+
+<p>I hope this explains it better.</p>
+
+<p>I neglected to mention what compiler flags were used.&nbsp; All of the code was built with CMake in <code>Release</code> mode.&nbsp; This uses <code>-O3</code> in most cases.&nbsp; This was something I should have specified first.&nbsp; I know there are other flags that could have been used to eek out some other tiny gains but I do not think it was relevant.&nbsp; I wanted to use the basics and what most people would do by default.&nbsp; I also configured the machines to only run the testing script and PSRT.&nbsp; Nothing else (other than the OS).&nbsp; Networking was disabled as well so nothing could interrupt and consume any resources available.</p>
+
+<p>&nbsp;</p>
+
+<h4>Simple vs. Complex</h4>
+
+<p>One commenter pointed out how they didn&#39;t like this, saying that they preferred simpler tests benchmarking atomic units. For example, measuring a bubble sort algorithm and only that.&nbsp; There are already a plethora of tests out there that do just this.&nbsp; That isn&#39;t good enough. In the real world we&#39;re writing complex systems that interact.</p>
+
+<p>Prefer integration tests; verify the whole product works.&nbsp; Unit testing is good for small components but I only like to do this only when the tiny bits need testing.&nbsp; E.g. if a single function had a bug and we want to double check it going forward.</p>
+
+<p>&nbsp;</p>
+
+<h4>Other Benchmarks</h4>
+
+<p>In all of the comments that I read, I only recall coming across <a href="https://bannalia.blogspot.com/2014/05/fast-polymorphic-collections-with.html">one other benchmark of <code>final</code></a>; they reported a speedup.&nbsp; But our methods of testing are completely different.&nbsp; They were testing atomic components.&nbsp; Mine was not.</p>
+
+<p>In <a href="https://cppcast.com/json_for_modern_cpp/">episode 381 of CppCast</a> it was discussed that there are many practices in the C++ world that are claimed to be more performant without providing any numbers.&nbsp; To anyone who doesn&#39;t think this was an adequate benchmark: <strong>Do you have an alternative</strong>?&nbsp; I&#39;m not finding any. If you don&#39;t think this was a good benchmark please explain why and tell me what should be done instead.</p>
+
+<p>&nbsp;</p>
+
+<h3>&quot;The author provided no analysis about clang&#39;s slowdown&quot;</h3>
+
+<p>This is one that I think is a more fair criticism of the article.&nbsp; In my defense, this is a topic I do not know that much about.&nbsp; I&#39;m not a compiler engineer, not an expert on the subject of low level performance optimization, nor the inner workings of clang and LLVM.&nbsp; For earlier development of PSRT, tools like <code>perf</code>, flame graphs, valgrind/cachegrind, Godbolt&#39;s Compiler Explorer, etc. were used.&nbsp; But I do not feel comfortable providing a deep analysis on the issue with clang.</p>
+
+<p>Time could have been spent researching the subject more and doing proper analysis, but this would have taken months.&nbsp; I did reach out to a friend of mine who works at Apple who provided me with some tips.&nbsp; Reading the comments on Hacker News, avenues seem to be looking at LTO, icache, inlining, etc. (<a href="https://gitlab.com/define-private-public/PSRayTracing/-/issues/86">Tickets have already been filed for further investigation</a>.)</p>
+
+<p>Someone did ask me to check the sizes of the generated binaires with <code>final</code> turned on and off. Devirtualization causing excessive inlining could be the cause. With <code>final</code> turned on, the binary was 8192 bytes larger; I&#39;m not sure how significant that is to impact performance. For comparison, GCC&#39;s compiled with <code>final</code> was only 4096 bytes larger than no <code>final</code>. But GCC&#39;s binary was about 0.2 MB larger (overall) than clang&#39;s. I do not think binary size is a factor.</p>
+
+<p>&nbsp;</p>
+
+<h4>LLVM Engineer</h4>
+
+<p>On Hacker News <a href="https://news.ycombinator.com/item?id=40125240">there was a comment</a> left by someone who works on the LLVM project.&nbsp; Quoting them:</p>
+
+<p style="margin-left: 40px;"><cite>&quot;As an LLVM developer, I really wish the author filed a bug report and waited for some analysis BEFORE publishing an article (that may never get amended) that recommends not using this keyword with clang for performance reasons. I suspect there&#39;s just a bug in clang.&quot;</cite></p>
+
+<ol>
+	<li>I am not sure if this was a bug.&nbsp; I have had performance drops with clang compared to GCC, so I didn&#39;t view this as bug worthy.&nbsp; I checked the LLVM issue tracker in the week after publishing and saw that no one else had.&nbsp; <a href="https://github.com/llvm/llvm-project/issues/90685">So I went ahead and filed a ticket.</a></li>
+	<li>I have amended articles in the past in light of new information.&nbsp; <a href="https://16bpp.net/blog/post/making-a-cross-platform-mobile-desktop-app-with-qt-62/">A previous revision of this project added in the aforementioned Qt GUI</a>.&nbsp; When I noticed some bugs in Qt, an engineer from the company reached out to me and I updated the original article.&nbsp; Last week, I thought there were no other benchmarks about <code>final</code> in existence.&nbsp; I found out I was wrong and my previous article has been adjusted to include that new information.<br />
+	<br />
+	<strong>If there is a bug in clang/LLVM, it becomes fixed, and the slowdown from using <code>final</code> is reduced (or reversed), I will update the article</strong>.</li>
+</ol>
+
+<h4>&nbsp;</h4>
+
+<h4>Random Number Generator Might Be The Cause of Clang&#39;s Slowdown</h4>
+
+<p>The RNG was already a vector for performance improvement in the past.&nbsp; Compared with the original book&#39;s code, <a href="https://github.com/define-private-public/PSRayTracing?tab=readme-ov-file#pcg-random--a-rng-object">using PCG&#39;s RNG showed improved performance</a> over what was available in standard C++.&nbsp; In the past I was wondering if there could be further improvements in this area.</p>
+
+<p>One reader decided to dig a bit deeper.&nbsp; That person is Ivan Zechev. He&#39;s <a href="https://gitlab.com/define-private-public/PSRayTracing/-/issues/85">done some amazing work already</a> and found that the issue with clang might have been related to the RNG and <a href="https://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution"><code>std::uniform_real_distribution</code></a>.&nbsp; Calls to <code>logl</code> were not being properly inlined.&nbsp; And this looks like <a href="https://github.com/llvm/llvm-project/issues/19916">a long standing issue</a> in clang/LLVM that has never been fixed.</p>
+
+<p>Mr. Zechev sent me a merge request for review, but I have held off on merging it because it actually changed how scenes were set up.&nbsp; <strong>This can drastically alter how long it takes to render an image</strong>, because the scene is now different.&nbsp; In our case, it was <code>book2::final_scene</code>.&nbsp; At first the floor was completely changed.&nbsp; Later he was able to correct for that, but other elements were not matching. The uniform distributor (in clang) was producing different numbers with his changes.&nbsp; For this, I cannot merge.&nbsp; I commend him for his investigation and will be looking at it in the future.&nbsp; Thank you.</p>
+
+<p>But this only uncovers a horrible problem: <strong>Things in <code>std::</code> are not portable</strong>; which kind of means that the &quot;standard library&quot; really isn&#39;t ... well... standard.&nbsp; In regards to <code>std::uniform_real_distribution</code> there is <a href="https://old.reddit.com/r/cpp/comments/7i21sn/til_uniform_int_distribution_is_not_portable/">some more information here</a>.&nbsp; The C++ standard allows this but it doesn&#39;t seem right.</p>
+
+<p>&nbsp;</p>
+
+<h4>&quot;There&#39;s no inspection of the assembly&quot;</h4>
+
+<p>The other articles have talked about what assembly is generated.&nbsp; I do not see why it was needed for mine.&nbsp; What the other articles neglected to do was measure.&nbsp; This is the gap I wanted to fill in.</p>
+
+<p>I use C++ at the surface level.&nbsp; I&#39;m pretty sure most people do as well.&nbsp; Part of the point of having a higher level language is to abstract away these lower level concepts.&nbsp; PSRT is meant to be written this way; portable, memory safe, modern C++.&nbsp; Knowing assembly definitely helps, but it should not be a requirement.&nbsp; This is a C++ project.</p>
+
+<hr />
+<p>&nbsp;</p>
+
+<p>Update May 15th, 2024:</p>
+
+<p>After posting this article on /r/cpp, user /u/lgovedic <a href="https://www.reddit.com/r/cpp/comments/1cqz3n4/addressing_that_post_about_final/l3yp4we/">provided a well thought out comment</a>.&nbsp; I&#39;d like to repost that here for other readers:</p>
+
+<div class="usertext-body may-blank-within md-container ">
+<div class="md">
+<p style="margin-left: 40px;"><cite>Glad you addressed the comments on both platforms! But I agree with others here that some things were left unaddressed.</cite></p>
+
+<p style="margin-left: 40px;"><cite>When it comes to software performance, I live by the words &quot;<strong>don&#39;t trust performance numbers you can&#39;t explain</strong>&quot;. Your measurements seem robust, but I think you went too far in assuming that the correlation between the final keyword and overall performance implies a causal relationship.</cite></p>
+
+<p style="margin-left: 40px;"><cite>I respect that you and many others don&#39;t want to jump into assembly, and I agree you should be able to just write high-level code. But I do think diving into assembly and providing evidence for the causal link is required if you want to make fundamental statements about C++ performance like &quot;using the <code>final</code> keyword does not always yield performance gains&quot;.</cite></p>
+
+<p style="margin-left: 40px;"><cite>To be fair, on a high-level, that statement is not false. And I appreciate that you shed light on the issue so that people will be more mindful of it and measure the performance of their code more often (that&#39;s always a good thing).</cite></p>
+
+<p style="margin-left: 40px;"><cite>But from your results and without further investigation, I think a more appropriate statement would be &quot;using the <code>final</code> keyword can drastically alter the layout and size of generated code, which might result in an overall slowdown&quot;. Because (again, without further investigation) that&#39;s a much more likely explanation, in my opinion. And more importantly, it provides much better advice for using the <code>final</code> keyword than just &quot;be careful&quot;</cite></p>
+</div>
+</div>
+
+<hr />
+<p>&nbsp;</p>
+
+<p>There will be follow ups and other investigations; but not immediately.&nbsp; I am willing to amend anything in light of new data.&nbsp; This is not my full time job and only a hobby project.&nbsp; Anyone is allowed to contribute and is welcome to do so.</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Mon Apr 22nd, 2024 – 08:25 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword">The Performance Impact of C++'s `final` Keyword</a></div>
+  <div class="blog-entry-body"><p>If you&#39;re writing C++, there&#39;s a good reason (maybe...) as to why you are. And probably, that reason is performance. So often when reading about the language you&#39;ll find all sorts of &quot;<em>performance tips and tricks</em>&quot; or &quot;<em>do this instead because it&#39;s more efficient</em>&quot;. Sometimes you get a good explanation as to why you should. But more often than not, <strong>you won&#39;t find any hard numbers to back up that claim</strong>.</p>
+
+<p>I recently found a peculiar one, the <code>final</code> keyword. I&#39;m a little ashamed I haven&#39;t learned about this one earlier. <a href="https://devblogs.microsoft.com/cppblog/the-performance-benefits-of-final-classes/">Multiple blog posts</a> <a href="https://blog.feabhas.com/2022/11/using-final-in-c-to-improve-performance/">claim that it can</a> <a href="https://levelup.gitconnected.com/c-performance-improvement-through-final-devirtualization-258e7ae1d2b5">improve performance</a><sup>(sorry for linking a Medium article)</sup>. It almost seems like it&#39;s almost free, and for a very measly change. After reading you&#39;ll notice something interesting: no one posted any metrics. Zero. Nada. Zilch. It essentially is <em>&quot;just trust me bro.&quot;</em> Claims of performance improvements aren&#39;t worth salt unless you have the numbers to back it up. You also need to be able to reproduce the results. I&#39;ve been guilty of this in the past (<a href="https://github.com/godotengine/godot/pull/33101">see a PR for Godot I made</a>).</p>
+
+<p>Being a good little engineer with a high performance C++ pet project, I really wanted to validate this claim.</p>
+
+<p class="special-note">Update May 3rd, 2024: When posting on /r/cpp, someone else did mention they did some perf testing of final before and had some numbers.&nbsp; Theirs was from about a decade ago.&nbsp; I did not find this in my initial searches.&nbsp; <a href="https://www.reddit.com/r/cpp/comments/1caarda/the_performance_impact_of_cs_final_keyword/l0r1n2r/">The comment thread and their article can be found here</a>.</p>
+
+<hr />
+<p>I keep on finding myself unable to get away from my pandemic era distraction, <a href="https://github.com/define-private-public/PSRayTracing">PSRayTracing</a>. But I think this is actually a VERY good candidate for testing <code>final</code>. It has many derived classes (implementing interfaces) and they are called millions of times in normal execution.</p>
+
+<p>For the (many) of you who haven&#39;t been following this project, the quick and skinny on PSRayTracing: it&#39;s a ray tracer implemented in C++, derived from <a href="https://raytracing.github.io/">Peter Shirley&#39;s ray tracing minibooks</a>. It serves mainly an academic purpose, but is modeled after my professional experiences writing C++. The goal is to show readers how you can (re)write C++ to be more performant, clean, and well structured. It has additions and improvements from Dr. Shirley&#39;s original code. One of the big features I have in it is the ability to toggle on and off changes from the book (via CMake), as well as being able to supply other options like random seeds, multi-core rendering. It is somewhere 4-5x faster than the original book code (single threaded).</p>
+
+<p>&nbsp;</p>
+
+<h3>How This Was Done</h3>
+
+<p>Leveraging the build system, I added an extra option to the <code>CMakeLists.txt</code>:</p>
+<script src="https://gist.github.com/define-private-public/e93c4bbb89482d5d07e36eed104f92a2.js?file=CMakeLists.txt"></script>
+
+<p>Then in C++ we can use (ab)use the pre processor to make a <code>FINAL</code> macro:</p>
+<script src="https://gist.github.com/define-private-public/e93c4bbb89482d5d07e36eed104f92a2.js?file=Common.hpp"></script>
+
+<p>And easily it can slapped onto any classes of interest:</p>
+<script src="https://gist.github.com/define-private-public/e93c4bbb89482d5d07e36eed104f92a2.js?file=FINAL_being_used.cpp"></script>
+
+<p>Now, we can turn on &amp; off the usage of <code>final</code> in our code base. Yes, it is very hacky and I am disgusted by this myself. <strong>I would never do this in an actual product</strong>, but it provides us a really nice way to apply the <code>final</code> keyword to the code and turn it on and off as we need it for the experiment.</p>
+
+<p><code>final</code> was placed on just about <a href="https://github.com/define-private-public/PSRayTracing/tree/b213aa1338744931977263e61cc6fd4cee6a7f32/render_library/Interfaces">every interface</a>. In the architecture we have things such as <a href="https://github.com/define-private-public/PSRayTracing/tree/b213aa1338744931977263e61cc6fd4cee6a7f32/render_library/Objects"><code>IHittable</code></a>, <a href="https://github.com/define-private-public/PSRayTracing/tree/b213aa1338744931977263e61cc6fd4cee6a7f32/render_library/Materials"><code>IMaterial</code></a>, <a href="https://github.com/define-private-public/PSRayTracing/tree/b213aa1338744931977263e61cc6fd4cee6a7f32/render_library/Textures"><code>ITexture</code></a>, etc. Take a look at the final scene from book two, we&#39;ve got quite a few 10K+ virtual objects in this scenario:</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/book2_final_scene.png"><img alt="Book 2's final scene" src="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/book2_final_scene.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>And alternatively, there are some scenes that don&#39;t have many (maybe 10):</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/perlin_noise_with_lights_scene.png"><img alt="Perlin noise with lights scene" src="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/perlin_noise_with_lights_scene.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<h3>Initial Concerns:</h3>
+
+<p>For PSRT, when testing something that can boost the performance, I first reach for the default scene <code>book2::final</code>. After applying <code>final</code> enabled the console reported:</p>
+
+<pre>
+$ ./PSRayTracing -n 100 -j 2
+Scene: book2::final_scene
+...
+Render took 58.587 seconds
+</pre>
+
+<p>&nbsp;</p>
+
+<p>But then reverting the change:</p>
+
+<pre>
+$ ./PSRayTracing -n 100 -j 2
+Scene: book2::final_scene
+...
+Render took 57.53 seconds
+</pre>
+
+<p>&nbsp;</p>
+
+<p>I was a tad bit perplexed? <em>Final was slower?!</em> After a few more runs, I saw a very minimal performance hit. Those blog posts must have lied to me...</p>
+
+<p>Before just tossing this away, I thought it would be best to pull out the verification test script. In a previous revision this was made to essentially fuzz test PSRayTracing (<a href="https://16bpp.net/blog/post/automated-testing-of-a-ray-tracer/">see previous post here</a>). The repo already contains a small set of well known test cases. That suite initially ran for about 20 minutes. But this is where it got a little interesting. The script reported using <code>final</code> slightly faster; wtih <code>final</code> it took 11m 29s. Without <code>final</code> it was 11m 44s. That&#39;s +2%. Actually significant.</p>
+
+<p>Something seemed up; more investigation was required.</p>
+
+<p>&nbsp;</p>
+
+<h3>Big Beefy Testing</h3>
+
+<p>Unsatisfied with the above, I created a &quot;large test suite&quot; to be more intensive. On my dev machine it needed to run for 8 hours. This was done by bumping up some of the test parameters. Here are the details on what&#39;s been tweaked:</p>
+
+<ul>
+	<li>Number of Times to Test a Scene: <code>10</code>&nbsp;&rarr; <code>30</code></li>
+	<li>Image Size: <code>[320x240, 400x400, 852x480]</code>&nbsp;&rarr; <code>[720x1280, 720x720, 1280x720]</code></li>
+	<li>Ray Depth: <code>[10, 25, 50]</code>&nbsp;&rarr; <code>[20, 35, 50]</code></li>
+	<li>Samples Per Pixel: <code>[5, 10, 25]</code>&nbsp;&rarr; <code>[25, 50, 75]</code></li>
+</ul>
+
+<p>Some test cases now would render in 10 seconds, others would take up to 10 minutes to complete. I thought this was much more comprehensive. The smaller suite did around 350+ test cases in 20+ minutes. This now would do 1150+ over the course of 8+ hours.</p>
+
+<p>The performance of a C++ program is also very compiler (and system) dependent as well. So to be more thorough, this was tested across three machines, three operating systems, and with three different compilers; once with <code>final</code>, and once without it enabled. After doing the math, the machines were chugging along for a cumulative 125+ hours. 🫠</p>
+
+<p>Please look at the tables below for specifics, but the configurations were:</p>
+
+<ul>
+	<li>AMD Ryzen 9:
+	<ul>
+		<li>Linux: GCC &amp; Clang</li>
+		<li>Windows: GCC &amp; MSVC</li>
+	</ul>
+	</li>
+	<li>Apple M1 Mac: GCC &amp; Clang</li>
+	<li>Intel i7: Linux GCC</li>
+</ul>
+
+<p>For example, one configuration is &quot;AMD Ryzen 9 with Ubuntu Linux using GCC&quot; and another would be &quot;Apple M1 Mac with macOS using Clang&quot;. Not all versions of the compilers were all the same; some were harder to get than others. And I do need to note at the time of writing this (and after gathering the data) a new version of Clang was released. Here, is the general summary of the test results:</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/test_suite_summary_results.png"><img alt="Overall Performance" src="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/test_suite_summary_results.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>This gives off some interesting findings, but tells us one thing right now: <strong>across the board, <code>final</code> isn&#39;t always faster; it&#39;s in fact slower in some situations</strong>. Sometimes there is a nice speedup (&gt;1%), other times it is detrimental.</p>
+
+<p>While it may be fun to compare compiler vs. compiler for this application (e.g. &quot;Monday Night Compiler Smackdown&quot;), I do not believe it is a fair thing to do with this data; it&#39;s only fair to compare &quot;with <code>final</code>&quot; and &quot;without <code>final</code>&quot; To compare compilers (and on different systems) a more comprehensive testing system is required. But there are some interesting observations:</p>
+
+<ul>
+	<li>Clang on x86_64 is slow.</li>
+	<li>Windows is less performant; Microsoft&#39;s own compiler is even lagging.</li>
+	<li>Apple&#39;s silicon chips are absolute powerhouses.</li>
+</ul>
+
+<p>But each scene is different, and contains a different amount of objects that are marked with <code>final</code>. It would be interesting to see percentage wise, how many test cases ran faster or slower with <code>final</code>. Tabling that data, we get this:</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/percent_of_tests_which_are_faster.png"><img alt="Percent of test cases that are faster with final turned on" src="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/percent_of_tests_which_are_faster.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>That 1% perf boost for some C++ applications is very desirable (e.g. HFT). And if we&#39;re hitting it for 50%+ of our test cases it seems like using <code>final</code> is something that we should consider. But on the flip side, we also need to see how the inverse looks. How much slower was it? And for how many test cases?</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/percent_of_tests_which_are_slower.png"><img alt="Percent of test cases that are slower with final turned on" src="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/percent_of_tests_which_are_slower.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>Clang on x86_64 Linux right there is an absolute &quot;<em>yikes</em>&quot;. More than 90% of test cases ran at least 5% slower with <code>final</code> turned on!! Remember how I said a 1% increase is good for some applications? A 1% hit is also bad. Windows with MSVC isn&#39;t faring too well either.</p>
+
+<p>As stated way above, this is very scene dependent. Some have only a handful of virtual objects. Others have warehouses full of them. Taking a look (on average) how much faster/slower a scene is with <code>final</code> turned on:</p>
+
+<p style="text-align: center;"><a href="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/average_performance_change_per_scene.png"><img alt="How much faster or slower was each scene on average is final was used" src="https://storage.googleapis.com/sixteenbpp/blog/images/the-performance-impact-of-cpps-final-keyword/average_performance_change_per_scene.png" /></a></p>
+
+<p>I don&#39;t know Pandas that well. I was having some issues creating a Multi-Index table (from arrays) and having the table be both styled and formatted nicely. So instead each column has a configuration number appended to the end of its name. Here is what each number means:</p>
+
+<ul>
+	<li>0 - GCC 13.2.0 AMD Ryzen 9 6900HX Ubuntu 23.10</li>
+	<li>1 - Clang 17.0.2 AMD Ryzen 9 6900HX Ubuntu 23.10</li>
+	<li>2 - MSVC 17 AMD Ryzen 9 6900HX Windows 11 Home (22631.3085)</li>
+	<li>3 - GCC 13.2.0 (w64devkit) AMD Ryzen 9 6900HX Windows 11 Home (22631.3085)</li>
+	<li>4 - Clang 15 M1 macOS 14.3 (23D56)</li>
+	<li>5 - GCC 13.2.0 (homebrew) M1 macOS 14.3 (23D56)</li>
+	<li>6 - GCC 12.3.0 i7-10750H Ubuntu 22.04.3</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>So this is where things are really eye popping. On some configurations and specific scenes might have a 10% perf boost. For example <code>book1::final_scene</code> with GCC on AMD &amp; Linux. But other scenes (on the same configuration) have a minimal 0.5% increase such as <code>fun::three_spheres</code>.</p>
+
+<p>But just switching the compiler over to Clang (still running on that AMD &amp; Linux) <strong>there&#39;s a major perf hit of -5% and -17% (respectively) on those same two scenes</strong>!! MSVC (on AMD) looks to be a bit of a mixed bag where some scenes are more performant with final and others ones take a significant hit.</p>
+
+<p>Apple&#39;s M1 is somewhat interesting where the gains and hits are very minimal, but GCC has a significant benefit for two scenes.</p>
+
+<p>Whether there were many (or few) virtual objects had next to no correlation if <code>final</code> was a performance boon or hit.</p>
+
+<p>&nbsp;</p>
+
+<h3>Clang Concerns Me</h3>
+
+<p>PSRayTracing also runs on Android and iOS. Most likely a small fraction of apps available for these platforms are written in C++, but there are some programs that make use of language for performance reasons on the two systems. <strong>Clang is the compiler that is used for these two platforms.</strong></p>
+
+<p>I unfortunately don&#39;t have a framework in place to test performance on Android and iOS like I do with desktop systems But I can do a simple &quot;<em>render-scene-with-same-parameters-one-with-final-and-one-without</em>&quot; test as the app reports how long the process took.</p>
+
+<p>Going from the data above, my hypothesis was that both platforms would be less performant with <code>final</code> turned on. By how much, I don&#39;t know. Here are the results:</p>
+
+<ul>
+	<li>iPhone 12: I saw no difference; With and without <code>final</code> it took about 2 minutes and 36 seconds to perform the same render.</li>
+	<li>Pixel 6 Pro: <code>final</code> was slower. It was 49 vs 46 seconds. A difference of three seconds might not seem like much, but that is a 6% slowdown; that is fairly significant. (clang 14 was used here BTW).</li>
+</ul>
+
+<p class="special-note">If you think I&#39;m being a little silly with these tiny percentages, please take a look at <a href="https://www.youtube.com/watch?v=kPR8h4-qZdk">Nicholas Ormrod&#39;s 2016 CppCon talks about optimizing <code>std::string</code> for Facebook</a>. I&#39;ve referenced it before and will continue to do it.</p>
+
+<p>I have no idea if this is a Clang issue or an LLVM one. If it is the latter, this may have implications for other LLVM languages such as Rust and Swift.</p>
+
+<p>&nbsp;</p>
+
+<h3>For The Future (And What I Wish I Did Instead):</h3>
+
+<p>All in all this was a very fascinating detour; but I think I&#39;m satisfied with what&#39;s been discovered. If I could redo some things (or be given money to work on this project):</p>
+
+<ol>
+	<li>Have each scene be able to report some metadata. E.g. number of objects, materials, etc. It is easily doable but didn&#39;t seem worth it for this study of <code>final</code>.</li>
+	<li>Have better knowledge of Jupyter+Pandas. I&#39;m a C++ dev, not a data scientist. I&#39;d like to be able to understand how to better transform the measured results and make it look prettier.</li>
+	<li>A way to run the automated tests on Android and iOS. These two platforms can&#39;t easily be tested right now and I feel like this is a notable blindspot</li>
+	<li><code>run_verfication_tests.py</code> is turning more into an application (as opposed to a small script).
+	<ul>
+		<li>Features are being bolted on. Better architecture is needed soon.</li>
+		<li>Saving and loading testing state was added, but this should have been something from the start and feels like more of a hack to me</li>
+		<li>I wish the output of the results were in a JSON format first instead of CSV. I had to fuddle with PyExcel more than desired.</li>
+	</ul>
+	</li>
+	<li>PNGs are starting to get kinda chunky. One time I ran out of disk space. Lossless WebP might be better as a render output.</li>
+	<li>Comparing more Intel chips, and with more compilers. The i7 was something I had lying around.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h3>Conclusions</h3>
+
+<p>In case you skimmed to the end, here&#39;s the summary:</p>
+
+<ul>
+	<li>Benefit seems to be available for GCC.</li>
+	<li>Doesn&#39;t affect Apple&#39;s chips much at all.</li>
+	<li>Do not use <code>final</code> with Clang, and maybe MSVC as well.</li>
+	<li>It all depends on your configuration/platform; <strong>test &amp; measure to see if it&#39;s worth it.</strong></li>
+</ul>
+
+<p><u>Personally, I&#39;m not turning it on. And would in fact, avoid using it. It doesn&#39;t seem consistent.</u></p>
+
+<p>For those who want to look at the raw data and the Jupyter notebook I used to process &amp; present these findings, <a href="https://gitlab.com/define-private-public/PSRayTracing/-/tree/b275e22c5adaa0d576f788cbdfbe7f15f08c6196/final_keyword_experiment">it&#39;s over here</a>.</p>
+
+<hr />
+<p>If you want to take a look at the project, <a href="https://github.com/define-private-public/PSRayTracing">it&#39;s up on GitHub </a>(but the active development is done <a href="https://gitlab.com/define-private-public/PSRayTracing/">over on GitLab</a>). Looking forward to the next time in one year when I pick up this project again. 😉</p>
+
+<p class="special-note">Update May 3rd, 2024: This article has generated quite a bit more buzz than I anticipated.&nbsp; I will be doing a follow up soon enough.&nbsp; I think there is a lot of insightful discussion on <a href="https://www.reddit.com/r/cpp/comments/1caarda/the_performance_impact_of_cs_final_keyword/">/r/cpp</a> and <a href="https://news.ycombinator.com/item?id=40116644">Hacker News</a> about this.&nbsp; Please take a look.</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+
+
+          
+            <div class="content-top-bottom-section"><div class="row justify-content-between pagination-section">
+  <div class="col-sm-4">
+    
+  </div>
+
+  <div class="col-sm-4 text-end">
+    
+      <a href="https://16bpp.net/blog/page/2">
+        <div class="pagination-button">
+          <div class="float-end">
+            <img alt="" src="https://storage.googleapis.com/sixteenbpp/images/icons/right_arrow.svg" width="20" height="20" style="margin-left: 1em;">
+          </div>
+
+          <div style="margin-right: 2.5em;">Page 2</div>
+        </div>
+      </a>
+    
+  </div>
+</div>
+</div>
+          
+        </article>
+      </div>
+
+    </div><!-- .row -->
+
+    <div class="row justify-content-end">
+      <div class="col-lg-9 text-center">
+
+        <footer class="footer">
+          © 16BPP.net – Made using
+<a href="https://www.djangoproject.com/"><img class="footer-django-logo" src="https://storage.googleapis.com/sixteenbpp/images/django_logo.svg" alt="django" width="44" height="15"></a> &amp; love.
+
+
+          <div class="back-to-top-box float-end">
+            <a href="#top"><img alt="Back to Top of Page" src="https://storage.googleapis.com/sixteenbpp/images/icons/up_arrow.svg" width="20" height="20" style="margin-top: 0.5em;"></a>
+          </div>
+        </footer>
+
+      </div>
+    </div><!-- .row -->
+
+  </div><!-- .container -->
+
+
+  <div id="privacy-notice">
+    This site uses cookies.<br>
+<button onclick="location.href='/page/privacy';">Privacy</button>
+<button onclick="privacy_ok();">OK</button>
+
+  </div>
+  <script>maybe_show_privacy_notice();</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
