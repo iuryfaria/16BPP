@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\bin\Debug\net9.0\HTTPListener.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\bin\Debug\net9.0\HTTPListener.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\bin\Debug\net9.0\HTTPListener.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\bin\Debug\net9.0\HTTPListener.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\bin\Debug\net9.0\HTTPListener.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\refint\HTTPListener.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\HTTPListener.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\HTTPListener\obj\Debug\net9.0\ref\HTTPListener.dll

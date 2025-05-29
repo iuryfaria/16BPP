@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HttpClient")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HTTPListener")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4ce80faf0c734be85e281238f0570c8dfc8484")]
-[assembly: System.Reflection.AssemblyProductAttribute("HttpClient")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HttpClient")]
+[assembly: System.Reflection.AssemblyProductAttribute("HTTPListener")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HTTPListener")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

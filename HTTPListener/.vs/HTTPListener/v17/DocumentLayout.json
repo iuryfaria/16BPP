@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\HTTPListener\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC96921F-AB23-4E7D-A0FA-11E8163DFCF1}|HTTPListener.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\httplistener\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC96921F-AB23-4E7D-A0FA-11E8163DFCF1}|HTTPListener.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\HTTPListener\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\HTTPListener\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:22:39.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
