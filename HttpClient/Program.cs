@@ -25,7 +25,7 @@ namespace HttpClientExample
             using (HttpClient httpClient = new HttpClient())
             {
                 // Get the webpage asynchronously
-                HttpResponseMessage resp = await httpClient.GetAsync(urlToDownload);
+                HttpResponseMessage resp = await httpClient.GetAsync(urlToDownload);                                                                                                                                                                        
 
                 // If we get a 200 response, then save it
                 if (resp.IsSuccessStatusCode)
