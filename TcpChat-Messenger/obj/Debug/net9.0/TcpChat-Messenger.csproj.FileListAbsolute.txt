@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\bin\Debug\net9.0\TcpChat-Messenger.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\bin\Debug\net9.0\TcpChat-Messenger.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\bin\Debug\net9.0\TcpChat-Messenger.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\bin\Debug\net9.0\TcpChat-Messenger.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\bin\Debug\net9.0\TcpChat-Messenger.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\refint\TcpChat-Messenger.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\TcpChat-Messenger.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Messenger\obj\Debug\net9.0\ref\TcpChat-Messenger.dll
