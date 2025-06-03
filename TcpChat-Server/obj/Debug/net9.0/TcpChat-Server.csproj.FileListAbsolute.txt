@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\bin\Debug\net9.0\TcpChat-Server.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\bin\Debug\net9.0\TcpChat-Server.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\bin\Debug\net9.0\TcpChat-Server.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\bin\Debug\net9.0\TcpChat-Server.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\bin\Debug\net9.0\TcpChat-Server.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\refint\TcpChat-Server.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\TcpChat-Server.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Server\obj\Debug\net9.0\ref\TcpChat-Server.dll

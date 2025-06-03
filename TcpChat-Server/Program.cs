@@ -143,10 +143,10 @@ namespace TcpChatServer
                         _names.Add(newClient, name);
                         _messengers.Add(newClient);
 
-                        Console.WriteLine("{0} is a MEssenger with the name {1}.", endPoint, name);
+                        Console.WriteLine("{0} is a Messenger with the name {1}.", endPoint, name);
 
                         //tell the viewers we have a new messenger
-                        _messageQueue.Enqueue(String.Format("{0} has noined the chat.", name));
+                        _messageQueue.Enqueue(String.Format("{0} has joined the chat.", name));
                     }
                 }
                 else

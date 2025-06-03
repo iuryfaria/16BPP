@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\bin\Debug\net9.0\TcpChat-Viewer.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\bin\Debug\net9.0\TcpChat-Viewer.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\bin\Debug\net9.0\TcpChat-Viewer.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\bin\Debug\net9.0\TcpChat-Viewer.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\bin\Debug\net9.0\TcpChat-Viewer.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\refint\TcpChat-Viewer.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\TcpChat-Viewer.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TcpChat-Viewer\obj\Debug\net9.0\ref\TcpChat-Viewer.dll

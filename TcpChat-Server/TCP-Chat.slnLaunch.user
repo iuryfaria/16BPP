@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "TcpChat ",
+    "Projects": [
+      {
+        "Path": "TcpChat-Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TcpChat-Messenger\\TcpChat-Messenger.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TcpChat-Viewer\\TcpChat-Viewer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

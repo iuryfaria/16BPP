@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TCP-Chat\\Server.csproj",
-      "projectName": "Server",
-      "projectPath": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TCP-Chat\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\TcpChat-Server.csproj",
+      "projectName": "TcpChat-Server",
+      "projectPath": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\TcpChat-Server.csproj",
       "packagesPath": "C:\\Users\\iuryg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TCP-Chat\\obj\\",
+      "outputPath": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
