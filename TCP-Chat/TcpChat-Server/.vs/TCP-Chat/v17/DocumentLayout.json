@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F88BCCF-A13C-49EA-A752-2F7DB069BF77}|TcpChat-Server.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F88BCCF-A13C-49EA-A752-2F7DB069BF77}|TcpChat-Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A050D52-B60F-4B02-8680-039113DD5F2A}|..\\TcpChat-Viewer\\TcpChat-Viewer.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-viewer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4211E-B387-4114-B6BF-9391088BC760}|..\\TcpChat-Messenger\\TcpChat-Messenger.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-messenger\\tcpchat-messenger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4211E-B387-4114-B6BF-9391088BC760}|..\\TcpChat-Messenger\\TcpChat-Messenger.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-messenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C4211E-B387-4114-B6BF-9391088BC760}|..\\TcpChat-Messenger\\TcpChat-Messenger.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-messenger\\gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A050D52-B60F-4B02-8680-039113DD5F2A}|..\\TcpChat-Viewer\\TcpChat-Viewer.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-viewer\\tcpchat-viewer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F88BCCF-A13C-49EA-A752-2F7DB069BF77}|TcpChat-Server.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-server\\tcpchat-server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F88BCCF-A13C-49EA-A752-2F7DB069BF77}|TcpChat-Server.csproj|solutionrelative:tcpchat-server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F88BCCF-A13C-49EA-A752-2F7DB069BF77}|TcpChat-Server.csproj|c:\\users\\iuryg\\source\\repos\\iuryfaria\\16bpp\\tcpchat-server\\tcpchat-server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0F88BCCF-A13C-49EA-A752-2F7DB069BF77}|TcpChat-Server.csproj|solutionrelative:tcpchat-server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TCP-Chat\\Messenger\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "gitignore.txt",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Messenger\\gitignore.txt",
+              "RelativeDocumentMoniker": "..\\TcpChat-Messenger\\gitignore.txt",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Messenger\\gitignore.txt",
+              "RelativeToolTip": "..\\TcpChat-Messenger\\gitignore.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-03T20:48:36.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TcpChat-Viewer.csproj",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Viewer\\TcpChat-Viewer.csproj",
+              "RelativeDocumentMoniker": "..\\TcpChat-Viewer\\TcpChat-Viewer.csproj",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Viewer\\TcpChat-Viewer.csproj",
+              "RelativeToolTip": "..\\TcpChat-Viewer\\TcpChat-Viewer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T20:45:12.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TcpChat-Messenger.csproj",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Messenger\\TcpChat-Messenger.csproj",
+              "RelativeDocumentMoniker": "..\\TcpChat-Messenger\\TcpChat-Messenger.csproj",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Messenger\\TcpChat-Messenger.csproj",
+              "RelativeToolTip": "..\\TcpChat-Messenger\\TcpChat-Messenger.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T17:33:24.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Viewer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TcpChat-Viewer\\Program.cs",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Viewer\\Program.cs",
+              "RelativeToolTip": "..\\TcpChat-Viewer\\Program.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T17:31:42.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Messenger\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TcpChat-Messenger\\Program.cs",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Messenger\\Program.cs",
+              "RelativeToolTip": "..\\TcpChat-Messenger\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:37:33.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TCP-Chat\\Messenger\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TCP-Chat\\Messenger\\Program.cs",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TCP-Chat\\Messenger\\Program.cs",
+              "RelativeToolTip": "..\\TCP-Chat\\Messenger\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:33:56.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TcpChat-Server.csproj",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\TcpChat-Server.csproj",
+              "RelativeDocumentMoniker": "TcpChat-Server.csproj",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\TcpChat-Server.csproj",
+              "RelativeToolTip": "TcpChat-Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T00:44:53.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TcpChat-Server",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\TcpChat-Server.csproj",
+              "RelativeDocumentMoniker": "TcpChat-Server.csproj",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\TcpChat-Server.csproj",
+              "RelativeToolTip": "TcpChat-Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T00:44:22.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\iuryg\\source\\repos\\iuryfaria\\16BPP\\TcpChat-Server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T22:52:11.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
