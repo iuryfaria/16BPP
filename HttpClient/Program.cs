@@ -2,13 +2,6 @@
 // Author:    Benjamin N. Summerton <define-private-public>        
 // License:   Unlicense (http://unlicense.org/)        
 
-using System;
-using System.IO;
-using System.Text;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
-
 namespace HttpClientExample
 {
     class Downloader
