@@ -1,0 +1,18 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\bin\Debug\net9.0\TCP Games - Server.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\bin\Debug\net9.0\TCP Games - Server.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\bin\Debug\net9.0\TCP Games - Server.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\bin\Debug\net9.0\TCP Games - Server.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\bin\Debug\net9.0\TCP Games - Server.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.csproj.AssemblyReference.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Game.419C1C33.Up2Date
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\refint\TCP Games - Server.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\TCP Games - Server.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-GamesServer\obj\Debug\net9.0\ref\TCP Games - Server.dll

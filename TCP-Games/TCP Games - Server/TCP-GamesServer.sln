@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP Games - Server", "TCP Games - Server.csproj", "{BE657A4C-96F8-4966-B938-EF5F152322CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP Games - Client", "..\TCP Games - Client\TCP Games - Client.csproj", "{F082DDA9-F665-409B-BDF0-A0D5720588F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE657A4C-96F8-4966-B938-EF5F152322CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE657A4C-96F8-4966-B938-EF5F152322CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE657A4C-96F8-4966-B938-EF5F152322CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE657A4C-96F8-4966-B938-EF5F152322CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F082DDA9-F665-409B-BDF0-A0D5720588F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F082DDA9-F665-409B-BDF0-A0D5720588F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F082DDA9-F665-409B-BDF0-A0D5720588F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F082DDA9-F665-409B-BDF0-A0D5720588F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30DD49B5-45C4-4310-9418-196F4E2760E4}
+	EndGlobalSection
+EndGlobal

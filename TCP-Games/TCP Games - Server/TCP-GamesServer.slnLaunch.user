@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "TcpGames ",
+    "Projects": [
+      {
+        "Path": "TCP Games - Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TCP Games - Client\\TCP Games - Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
