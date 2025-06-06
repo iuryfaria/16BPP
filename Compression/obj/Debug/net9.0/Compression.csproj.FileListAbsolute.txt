@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\bin\Debug\net9.0\Compression.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\bin\Debug\net9.0\Compression.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\bin\Debug\net9.0\Compression.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\bin\Debug\net9.0\Compression.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\bin\Debug\net9.0\Compression.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\refint\Compression.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\Compression.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\Compression\obj\Debug\net9.0\ref\Compression.dll
