@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "UdpFileSender.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\UdpFileReceiver\\UdpFileReceiver.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

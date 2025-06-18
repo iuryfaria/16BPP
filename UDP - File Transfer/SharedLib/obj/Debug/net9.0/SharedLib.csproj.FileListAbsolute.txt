@@ -1,0 +1,12 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\bin\Debug\net9.0\SharedLib.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\bin\Debug\net9.0\SharedLib.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\bin\Debug\net9.0\SharedLib.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\refint\SharedLib.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\SharedLib.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\SharedLib\obj\Debug\net9.0\ref\SharedLib.dll
