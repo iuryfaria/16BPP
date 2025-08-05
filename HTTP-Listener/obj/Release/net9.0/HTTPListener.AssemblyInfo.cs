@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HTTPListener")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4afe0840e07338f877099373ddbea0513438a56c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4275ae11c04d704fe9f30821e174a9558121b536")]
 [assembly: System.Reflection.AssemblyProductAttribute("HTTPListener")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HTTPListener")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
