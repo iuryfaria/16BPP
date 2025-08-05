@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "TCP - SocketServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\ConsoleApp1\\TCP - SocketClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

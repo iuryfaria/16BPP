@@ -4,15 +4,13 @@ using System.Net.NetworkInformation;
 
 namespace PingExample
 {
-    //this is an example of how to use Ping both sychrnously
-    //ad asynchronously
-    class PingExample
+    class Program
     {
         private static string _hostname;
         private static int _timeout = 2000; // 2 seconds in milliseconds
         private static object _consolelock = new object();
 
-        //locks console output and prints info about a PingReply (with color)
+        // Locks console output and prints info about a PingReply (with color)
         public static void PrintPingReply(PingReply reply, ConsoleColor textColor)
         {
             lock (_consolelock)
@@ -21,67 +19,91 @@ namespace PingExample
 
                 Console.WriteLine("Got ping response from {0}", _hostname);
                 Console.WriteLine("  Remote address: {0}", reply.Address);
-                Console.WriteLine("  Roundtrip time: {0}", reply.RoundtripTime);
+                Console.WriteLine("  Roundtrip time: {0} ms", reply.RoundtripTime);
                 Console.WriteLine("  Size: {0} bytes", reply.Buffer.Length);
-                Console.WriteLine("  TTL: {0}", reply.Options.Ttl);
+
+                if (reply.Options != null)
+                    Console.WriteLine("  TTL: {0}", reply.Options.Ttl);
+                else
+                    Console.WriteLine("  TTL: (unknown)");
 
                 Console.ResetColor();
             }
         }
 
-        //A callback for doing an Asynchronous ping
+        // A callback for doing an Asynchronous ping
         public static void PingCompletedHandler(object sender, PingCompletedEventArgs e)
         {
-            //Canceled, error, or fine?
             if (e.Cancelled)
+            {
                 Console.WriteLine("Ping was canceled.");
+            }
             else if (e.Error != null)
+            {
                 Console.WriteLine("There was an error with the Ping, reason={0}", e.Error.Message);
-            else
+            }
+            else if (e.Reply.Status == IPStatus.Success)
+            {
                 PrintPingReply(e.Reply, ConsoleColor.Cyan);
+            }
+            else
+            {
+                Console.WriteLine("Async Ping to {0} failed: {1}", _hostname, e.Reply.Status);
+            }
 
             // Notify the calling thread
             AutoResetEvent waiter = (AutoResetEvent)e.UserState;
             waiter.Set();
-
         }
 
-        //Perfoms a Synchronous Ping
-        public static void SendSynchronousPing(Ping pinger, ConsoleColor textColor)
+        // Performs a Synchronous Ping
+        public static void SendSynchronousPing(Ping pinger)
         {
-            PingReply reply = pinger.Send(_hostname, _timeout);  //will block for at most
-            if(reply.Status == IPStatus.Success)
-                PrintPingReply(reply, ConsoleColor.Magenta);
-            else
+            try
             {
-                Console.WriteLine("Synchronous Ping to {0} failed:", _hostname);
-                Console.WriteLine("  Status: {0}", reply.Status);
+                PingReply reply = pinger.Send(_hostname, _timeout);
+                if (reply.Status == IPStatus.Success)
+                {
+                    PrintPingReply(reply, ConsoleColor.Magenta);
+                }
+                else
+                {
+                    Console.WriteLine("Synchronous Ping to {0} failed:", _hostname);
+                    Console.WriteLine("  Status: {0}", reply.Status);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Synchronous Ping failed with exception: {0}", ex.Message);
             }
         }
 
         public static void Main(string[] args)
         {
-            //Setup the pinger
             Ping pinger = new Ping();
             pinger.PingCompleted += PingCompletedHandler;
 
-            //poll the user where to send the Ping to
             Console.WriteLine("Send a Ping to whom: ");
             _hostname = Console.ReadLine();
 
-            //Send async (w/ callback)
-            AutoResetEvent waiter = new AutoResetEvent(false); //st to not-signaled
-            pinger.SendAsync(_hostname, waiter);
-
-            // Check immediately for the async ping
-            if (waiter.WaitOne(_timeout) == false)
+            AutoResetEvent waiter = new AutoResetEvent(false);
+            try
             {
-                pinger.SendAsyncCancel();
-                Console.WriteLine("Async Ping to {0} timed out.", _hostname);
+                pinger.SendAsync(_hostname, waiter);
+
+                if (!waiter.WaitOne(_timeout))
+                {
+                    pinger.SendAsyncCancel();
+                    Console.WriteLine("Async Ping to {0} timed out.", _hostname);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Async Ping failed with exception: {0}", ex.Message);
             }
 
-            // Send it synchronously
-            SendSynchronousPing(pinger, ConsoleColor.Magenta);
+            // Now the synchronous one
+            SendSynchronousPing(pinger);
         }
     }
 }

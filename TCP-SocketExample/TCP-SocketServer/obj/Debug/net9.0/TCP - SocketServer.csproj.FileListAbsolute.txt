@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\bin\Debug\net9.0\TCP - SocketServer.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\bin\Debug\net9.0\TCP - SocketServer.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\bin\Debug\net9.0\TCP - SocketServer.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\bin\Debug\net9.0\TCP - SocketServer.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\bin\Debug\net9.0\TCP - SocketServer.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\refint\TCP - SocketServer.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\TCP - SocketServer.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\TCP-SocketExample\TCP-SocketServer\obj\Debug\net9.0\ref\TCP - SocketServer.dll

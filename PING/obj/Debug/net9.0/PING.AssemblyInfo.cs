@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PING")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4275ae11c04d704fe9f30821e174a9558121b536")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad5965f7caf27606f741f0fc92bc5885a857c810")]
 [assembly: System.Reflection.AssemblyProductAttribute("PING")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PING")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
