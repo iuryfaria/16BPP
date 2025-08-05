@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\bin\Debug\net9.0\PING.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\bin\Debug\net9.0\PING.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\bin\Debug\net9.0\PING.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\bin\Debug\net9.0\PING.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\bin\Debug\net9.0\PING.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\refint\PING.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\PING.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\PING\obj\Debug\net9.0\ref\PING.dll
