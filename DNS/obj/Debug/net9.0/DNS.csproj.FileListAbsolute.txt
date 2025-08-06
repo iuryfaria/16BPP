@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\bin\Debug\net9.0\DNS.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\bin\Debug\net9.0\DNS.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\bin\Debug\net9.0\DNS.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\bin\Debug\net9.0\DNS.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\bin\Debug\net9.0\DNS.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\refint\DNS.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\DNS.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\DNS\obj\Debug\net9.0\ref\DNS.dll
