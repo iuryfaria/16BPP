@@ -1,0 +1,15 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\bin\Debug\net9.0\IPEndPoint.exe
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\bin\Debug\net9.0\IPEndPoint.deps.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\bin\Debug\net9.0\IPEndPoint.runtimeconfig.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\bin\Debug\net9.0\IPEndPoint.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\bin\Debug\net9.0\IPEndPoint.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.sourcelink.json
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\refint\IPEndPoint.dll
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.pdb
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\IPEndPoint.genruntimeconfig.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPEndPoint\obj\Debug\net9.0\ref\IPEndPoint.dll
