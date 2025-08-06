@@ -1,0 +1,5 @@
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPAddress\obj\Debug\net9.0\IPAddress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPAddress\obj\Debug\net9.0\IPAddress.AssemblyInfoInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPAddress\obj\Debug\net9.0\IPAddress.AssemblyInfo.cs
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPAddress\obj\Debug\net9.0\IPAddress.csproj.CoreCompileInputs.cache
+C:\Users\iuryg\source\repos\iuryfaria\16BPP\IPAddress\obj\Debug\net9.0\IPAddress.sourcelink.json
